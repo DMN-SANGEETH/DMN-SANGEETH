@@ -6,7 +6,7 @@ A self-learning passionate second-year diplomat in Information Technology at the
 
 Skills: Python, Java
 
-- 🔭 I’m currently working on this pagDiagnosis Of Heart Patients Using Deep Neural Network projecte. 
+- 🔭 I’m currently working on Diagnosis Of Heart Patients Using Deep Neural Network projecte. 
 - 🌱 I’m currently learning Machine Learning, Deep Learning(CNN), Data Science 
 - 📫 How to reach me: dmnsangeeth@gmail.com 
 
