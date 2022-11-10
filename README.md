@@ -1,5 +1,5 @@
 ### Hi there 👋, DMN Sangeeth
-#### I am GitHub Readme Generator's creator
+#### I am a self-learning passionate
 ![I am GitHub Readme Generator's creator](https://github.com/DMN-SANGEETH/DMN-SANGEETH/blob/main/img.png)
 
 A self-learning passionate second-year diplomat in Information Technology at the Institute of Technology University of Moratuwa (NDT).who is interested in Machine Learning and Data Science fields to proceed.
