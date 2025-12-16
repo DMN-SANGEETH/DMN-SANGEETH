@@ -1,0 +1,342 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "015",
+      "email": "sofia.rodriguez@mobiledev.es",
+      "created_at": "2023-02-14T14:30:00.000000",
+      "updated_at": "2024-12-10T10:20:15.000000"
+    },
+    "profile": {
+      "profiles_id": "PF015",
+      "user_id": "015",
+      "first_name": "Sofia",
+      "middle_name": "Isabella",
+      "last_name": "Rodriguez",
+      "about": "Junior Mobile Developer with 2 years of experience building cross-platform mobile applications using React Native and Flutter. Passionate about creating beautiful, performant mobile experiences. Quick learner with a strong foundation in mobile development patterns and best practices.",
+      "email": "sofia.rodriguez@mobiledev.es",
+      "dob": "1999-07-25",
+      "phone": "+34-91-555-7890",
+      "marital_status": "Single",
+      "gender": "Female",
+      "industry": "Mobile Development",
+      "is_valid_resume": true,
+      "created_at": "2023-02-14T14:30:00.000000",
+      "updated_at": "2024-12-10T10:20:15.000000"
+    },
+    "contact": {
+      "address_line_1": "Calle de Alcalá 123, 4º B",
+      "address_line_2": null,
+      "city": "Madrid",
+      "postal_code": "28009",
+      "province": "Madrid",
+      "country": "Spain",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 2,
+        "domain_breakdown": {
+          "Mobile Development": 2,
+          "React Native": 2,
+          "Flutter": 1
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Glovo",
+          "organization_location": "Barcelona, Spain",
+          "organization_url": "https://glovoapp.com",
+          "discipline": "Mobile Development",
+          "role": "Mobile Developer",
+          "job_title": "Mobile Application Developer",
+          "description": "• Developing features for delivery app using React Native, serving 10M+ users across Europe\n• Implementing real-time order tracking with geolocation and push notifications\n• Collaborating with design team to implement pixel-perfect UI components\n• Writing unit tests using Jest and integration tests with Detox\n• Participating in code reviews and sprint planning sessions\n• Fixed critical bugs improving app stability and user ratings",
+          "is_currently_working": true,
+          "start_date": "2023-06-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Cabify",
+          "organization_location": "Madrid, Spain",
+          "organization_url": "https://cabify.com",
+          "discipline": "Mobile Development",
+          "role": "Junior Mobile Developer",
+          "job_title": "Junior Mobile Developer",
+          "description": "• Built rider app features using React Native for iOS and Android platforms\n• Implemented payment integration with Stripe and local payment providers\n• Developed offline functionality for improved user experience\n• Worked with RESTful APIs and Redux for state management\n• Assisted in migrating legacy code to modern React hooks\n• Participated in agile development process and daily standups",
+          "is_currently_working": false,
+          "start_date": "2022-08-15",
+          "end_date": "2023-05-20"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 23,
+        "name": "Food Delivery Mobile App",
+        "description": "Contributed to building comprehensive food delivery app with real-time tracking, payment integration, and restaurant discovery features.",
+        "relevant_industry": "Mobile Development",
+        "is_currently_working": true,
+        "start_date": "2023-06-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 90,
+            "skill": "React Native",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 91,
+            "skill": "JavaScript",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 92,
+            "skill": "Redux",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          },
+          {
+            "skill_id": 93,
+            "skill": "React Navigation",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 94,
+            "skill": "Firebase",
+            "level_of_skill": "Intermediate",
+            "system_rating": 6,
+            "candidate_rating": 6,
+            "final_rating": 6,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 24,
+        "name": "Ride-sharing Mobile App",
+        "description": "Developed rider application with features for booking rides, real-time driver tracking, and seamless payment processing.",
+        "relevant_industry": "Mobile Development",
+        "is_currently_working": false,
+        "start_date": "2022-08-15",
+        "end_date": "2023-05-20",
+        "skills": [
+          {
+            "skill_id": 95,
+            "skill": "React Native",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          },
+          {
+            "skill_id": 96,
+            "skill": "Google Maps API",
+            "level_of_skill": "Intermediate",
+            "system_rating": 6,
+            "candidate_rating": 6,
+            "final_rating": 6,
+            "description": null
+          },
+          {
+            "skill_id": 97,
+            "skill": "Stripe Integration",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 98,
+            "skill": "Redux Toolkit",
+            "level_of_skill": "Intermediate",
+            "system_rating": 6,
+            "candidate_rating": 6,
+            "final_rating": 6,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 25,
+        "name": "Personal Finance Tracker App",
+        "description": "Built personal project for expense tracking and budget management using Flutter with local database storage.",
+        "relevant_industry": "FinTech",
+        "is_currently_working": false,
+        "start_date": "2023-01-10",
+        "end_date": "2023-04-30",
+        "skills": [
+          {
+            "skill_id": 99,
+            "skill": "Flutter",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 100,
+            "skill": "Dart",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 101,
+            "skill": "SQLite",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 102,
+            "skill": "Provider",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 4,
+            "final_rating": 4.5,
+            "description": "Flutter state management"
+          }
+        ]
+      },
+      {
+        "project_id": 26,
+        "name": "Social Media App Clone",
+        "description": "Created Instagram-like social media app as learning project with image sharing, likes, and comments functionality.",
+        "relevant_industry": "Social Media",
+        "is_currently_working": false,
+        "start_date": "2022-03-01",
+        "end_date": "2022-07-31",
+        "skills": [
+          {
+            "skill_id": 103,
+            "skill": "React Native",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 104,
+            "skill": "Firebase Authentication",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 105,
+            "skill": "Firebase Storage",
+            "level_of_skill": "Beginner",
+            "system_rating": 5,
+            "candidate_rating": 5,
+            "final_rating": 5,
+            "description": null
+          },
+          {
+            "skill_id": 106,
+            "skill": "Expo",
+            "level_of_skill": "Intermediate",
+            "system_rating": 6,
+            "candidate_rating": 6,
+            "final_rating": 6,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Bachelor of Science in Computer Engineering",
+          "awarding_institution_name": "Universidad Politécnica de Madrid",
+          "qualification_level": "Bachelor",
+          "specialization": "Software Engineering",
+          "start_date": "2018-09-01",
+          "end_date": "2022-06-30",
+          "grade": "8.5/10",
+          "department": "School of Computer Engineering",
+          "faculty": "Engineering and Architecture",
+          "batch": "2018-2022"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/sofia-rodriguez-mobile"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/sofiarodriguez"
+      },
+      {
+        "platform": "Portfolio",
+        "url": "https://sofiarodriguez.dev"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Catalan",
+        "proficiency": null
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "React Native - The Practical Guide",
+        "organization": "Udemy",
+        "credential_id": "UC-RN-2022-SR-8901",
+        "issue_date": "2022-07-15",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Flutter & Dart - Complete Guide",
+        "organization": "Udemy",
+        "credential_id": "UC-FL-2023-SR-3456",
+        "issue_date": "2023-02-20",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Mobile App Development Bootcamp",
+        "organization": "Ironhack",
+        "credential_id": "IH-MAD-2022-4567",
+        "issue_date": "2022-06-30",
+        "expiration_date": null
+      }
+    ]
+  }
+}

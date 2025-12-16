@@ -1,0 +1,610 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "017",
+      "email": "rajesh.patel@cloudarch.ca",
+      "created_at": "2018-03-10T07:20:00.000000",
+      "updated_at": "2024-12-12T15:40:50.000000"
+    },
+    "profile": {
+      "profiles_id": "PF017",
+      "user_id": "017",
+      "first_name": "Rajesh",
+      "middle_name": "Kumar",
+      "last_name": "Patel",
+      "about": "Lead Cloud Architect with 12 years of experience designing and implementing enterprise-scale cloud solutions on AWS and Azure. Expert in cloud migration, multi-cloud architecture, and cost optimization. Proven track record of leading large-scale digital transformation initiatives and building high-performing cloud engineering teams.",
+      "email": "rajesh.patel@cloudarch.ca",
+      "dob": "1981-09-30",
+      "phone": "+1-416-555-2345",
+      "marital_status": "Married",
+      "gender": "Male",
+      "industry": "Cloud Architecture",
+      "is_valid_resume": true,
+      "created_at": "2018-03-10T07:20:00.000000",
+      "updated_at": "2024-12-12T15:40:50.000000"
+    },
+    "contact": {
+      "address_line_1": "88 Queen Street East, Suite 2501",
+      "address_line_2": null,
+      "city": "Toronto",
+      "postal_code": "M5C 1B8",
+      "province": "Ontario",
+      "country": "Canada",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 12,
+        "domain_breakdown": {
+          "Cloud Architecture": 12,
+          "AWS": 10,
+          "Azure": 8,
+          "Enterprise Architecture": 6
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Shopify",
+          "organization_location": "Ottawa, Canada",
+          "organization_url": "https://shopify.com",
+          "discipline": "Cloud Architecture",
+          "role": "Lead Cloud Architect",
+          "job_title": "Lead Cloud Architect",
+          "description": "• Leading cloud architecture for e-commerce platform serving 2M+ merchants globally\n• Architected multi-region, multi-cloud infrastructure ensuring 99.99% uptime SLA\n• Managing team of 15 cloud engineers and architects across multiple regions\n• Designed serverless architecture reducing operational costs by $5M annually\n• Implemented FinOps practices achieving 40% reduction in cloud spending\n• Driving cloud-native transformation and microservices adoption\n• Conducting architecture reviews and establishing cloud governance standards",
+          "is_currently_working": true,
+          "start_date": "2020-08-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Royal Bank of Canada (RBC)",
+          "organization_location": "Toronto, Canada",
+          "organization_url": "https://rbc.com",
+          "discipline": "Cloud Engineering",
+          "role": "Senior Cloud Architect",
+          "job_title": "Senior Cloud Architect",
+          "description": "• Designed hybrid cloud architecture for banking applications supporting 16M+ customers\n• Led migration of 200+ applications from on-premise to AWS cloud\n• Implemented disaster recovery solution with RTO < 1 hour and RPO < 15 minutes\n• Established cloud security framework compliant with financial regulations\n• Mentored cloud engineering teams on AWS best practices\n• Reduced infrastructure costs by 35% through reserved instances and right-sizing\n• Collaborated with compliance and security teams on cloud governance",
+          "is_currently_working": false,
+          "start_date": "2017-05-15",
+          "end_date": "2020-07-20"
+        },
+        {
+          "organization_name": "IBM Canada",
+          "organization_location": "Toronto, Canada",
+          "organization_url": "https://ibm.com",
+          "discipline": "Cloud Solutions",
+          "role": "Cloud Solutions Architect",
+          "job_title": "Cloud Solutions Architect",
+          "description": "• Designed cloud solutions for enterprise clients across various industries\n• Led proof-of-concept implementations for cloud migration projects\n• Provided technical leadership for multi-cloud integration projects\n• Conducted cloud readiness assessments and TCO analysis\n• Developed reference architectures for common cloud patterns\n• Delivered technical workshops and training on cloud technologies\n• Supported pre-sales activities with technical expertise",
+          "is_currently_working": false,
+          "start_date": "2014-09-01",
+          "end_date": "2017-05-01"
+        },
+        {
+          "organization_name": "CGI Group",
+          "organization_location": "Montreal, Canada",
+          "organization_url": "https://cgi.com",
+          "discipline": "Infrastructure Engineering",
+          "role": "Senior Infrastructure Engineer",
+          "job_title": "Senior Infrastructure Engineer",
+          "description": "• Managed enterprise infrastructure for government and private sector clients\n• Implemented virtualization solutions using VMware and Hyper-V\n• Designed high-availability systems with 99.9% uptime\n• Performed capacity planning and performance optimization\n• Led datacenter consolidation and migration projects\n• Provided 24/7 support for critical infrastructure systems",
+          "is_currently_working": false,
+          "start_date": "2012-06-01",
+          "end_date": "2014-08-30"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 33,
+        "name": "Global E-commerce Cloud Platform",
+        "description": "Architected planet-scale e-commerce infrastructure on AWS serving 2M+ merchants with 99.99% uptime across 15 regions.",
+        "relevant_industry": "Cloud Architecture",
+        "is_currently_working": true,
+        "start_date": "2021-06-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 132,
+            "skill": "AWS",
+            "level_of_skill": "Expert",
+            "system_rating": 10,
+            "candidate_rating": 10,
+            "final_rating": 10,
+            "description": null
+          },
+          {
+            "skill_id": 133,
+            "skill": "Terraform",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 134,
+            "skill": "Kubernetes",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 135,
+            "skill": "CloudFormation",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 136,
+            "skill": "Multi-Region Architecture",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 137,
+            "skill": "AWS EKS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 34,
+        "name": "Serverless Microservices Platform",
+        "description": "Designed and implemented serverless architecture using AWS Lambda, reducing costs by $5M annually while improving scalability.",
+        "relevant_industry": "Cloud Architecture",
+        "is_currently_working": false,
+        "start_date": "2022-03-01",
+        "end_date": "2023-09-30",
+        "skills": [
+          {
+            "skill_id": 138,
+            "skill": "AWS Lambda",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 139,
+            "skill": "API Gateway",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 140,
+            "skill": "DynamoDB",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 141,
+            "skill": "EventBridge",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 142,
+            "skill": "Step Functions",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 35,
+        "name": "Banking Cloud Migration",
+        "description": "Led migration of 200+ banking applications from on-premise to AWS, ensuring compliance with financial regulations.",
+        "relevant_industry": "Financial Services",
+        "is_currently_working": false,
+        "start_date": "2018-01-15",
+        "end_date": "2020-06-30",
+        "skills": [
+          {
+            "skill_id": 143,
+            "skill": "AWS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 144,
+            "skill": "Cloud Migration",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 145,
+            "skill": "AWS Migration Hub",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 146,
+            "skill": "Disaster Recovery",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 147,
+            "skill": "Compliance",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 36,
+        "name": "Multi-Cloud Integration Platform",
+        "description": "Architected integration solution connecting AWS and Azure environments with unified monitoring and governance.",
+        "relevant_industry": "Cloud Architecture",
+        "is_currently_working": false,
+        "start_date": "2019-09-01",
+        "end_date": "2020-07-31",
+        "skills": [
+          {
+            "skill_id": 148,
+            "skill": "AWS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 149,
+            "skill": "Azure",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 150,
+            "skill": "Multi-Cloud Strategy",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 151,
+            "skill": "Cloud Governance",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 37,
+        "name": "FinOps Cost Optimization Initiative",
+        "description": "Implemented FinOps practices and tools achieving 40% reduction in cloud costs across enterprise infrastructure.",
+        "relevant_industry": "Cloud FinOps",
+        "is_currently_working": false,
+        "start_date": "2021-01-01",
+        "end_date": "2021-12-31",
+        "skills": [
+          {
+            "skill_id": 152,
+            "skill": "FinOps",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 153,
+            "skill": "Cost Optimization",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 154,
+            "skill": "AWS Cost Explorer",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 155,
+            "skill": "Reserved Instances",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 38,
+        "name": "Container Orchestration Platform",
+        "description": "Built enterprise Kubernetes platform on AWS EKS supporting 500+ microservices across development teams.",
+        "relevant_industry": "DevOps",
+        "is_currently_working": false,
+        "start_date": "2020-02-01",
+        "end_date": "2020-11-30",
+        "skills": [
+          {
+            "skill_id": 156,
+            "skill": "Kubernetes",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 157,
+            "skill": "AWS EKS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 158,
+            "skill": "Helm",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 159,
+            "skill": "Service Mesh",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 39,
+        "name": "Data Lake Architecture",
+        "description": "Designed scalable data lake on AWS S3 with analytics capabilities processing 10TB+ data daily.",
+        "relevant_industry": "Data Engineering",
+        "is_currently_working": false,
+        "start_date": "2017-06-01",
+        "end_date": "2018-03-31",
+        "skills": [
+          {
+            "skill_id": 160,
+            "skill": "AWS S3",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 161,
+            "skill": "AWS Glue",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 162,
+            "skill": "AWS Athena",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 163,
+            "skill": "Data Lake Architecture",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 40,
+        "name": "Infrastructure as Code Framework",
+        "description": "Established comprehensive IaC framework using Terraform for consistent infrastructure provisioning across teams.",
+        "relevant_industry": "Cloud Engineering",
+        "is_currently_working": false,
+        "start_date": "2015-10-01",
+        "end_date": "2016-08-31",
+        "skills": [
+          {
+            "skill_id": 164,
+            "skill": "Terraform",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 165,
+            "skill": "Infrastructure as Code",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 166,
+            "skill": "CI/CD",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Master of Business Administration (MBA)",
+          "awarding_institution_name": "University of Toronto - Rotman School of Management",
+          "qualification_level": "Master",
+          "specialization": "Technology Leadership",
+          "start_date": "2016-09-01",
+          "end_date": "2018-06-30",
+          "grade": "3.8/4.0 GPA",
+          "department": "Rotman School of Management",
+          "faculty": "Business",
+          "batch": "2016-2018"
+        },
+        {
+          "awarding_name": "Bachelor of Engineering in Computer Engineering",
+          "awarding_institution_name": "University of Waterloo",
+          "qualification_level": "Bachelor",
+          "specialization": "Computer Engineering",
+          "start_date": "2007-09-01",
+          "end_date": "2012-04-30",
+          "grade": "3.7/4.0 GPA",
+          "department": "Electrical and Computer Engineering",
+          "faculty": "Engineering",
+          "batch": "2007-2012"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/rajesh-patel-cloud"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/rajeshpatel"
+      },
+      {
+        "platform": "Medium",
+        "url": "https://medium.com/@rajeshpatel-cloud"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Gujarati",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "AWS Certified Solutions Architect - Professional",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-SAP-2019-RP-1234",
+        "issue_date": "2019-04-15",
+        "expiration_date": "2025-04-15"
+      },
+      {
+        "certification_name": "AWS Certified DevOps Engineer - Professional",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-DOP-2020-RP-5678",
+        "issue_date": "2020-08-20",
+        "expiration_date": "2026-08-20"
+      },
+      {
+        "certification_name": "Azure Solutions Architect Expert",
+        "organization": "Microsoft",
+        "credential_id": "MS-AZ-2018-RP-9012",
+        "issue_date": "2018-11-10",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Google Cloud Professional Cloud Architect",
+        "organization": "Google Cloud",
+        "credential_id": "GCP-PCA-2021-RP-3456",
+        "issue_date": "2021-06-05",
+        "expiration_date": "2023-06-05"
+      },
+      {
+        "certification_name": "Certified Kubernetes Administrator (CKA)",
+        "organization": "Cloud Native Computing Foundation",
+        "credential_id": "CKA-2020-RP-7890",
+        "issue_date": "2020-03-18",
+        "expiration_date": "2023-03-18"
+      },
+      {
+        "certification_name": "HashiCorp Certified: Terraform Associate",
+        "organization": "HashiCorp",
+        "credential_id": "HC-TF-2019-RP-2345",
+        "issue_date": "2019-09-12",
+        "expiration_date": null
+      }
+    ]
+  }
+}

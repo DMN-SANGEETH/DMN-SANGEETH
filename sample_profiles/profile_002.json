@@ -1,0 +1,417 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "012",
+      "email": "marcus.chen@devmail.io",
+      "created_at": "2022-01-20T10:15:00.000000",
+      "updated_at": "2024-12-01T09:45:22.000000"
+    },
+    "profile": {
+      "profiles_id": "PF012",
+      "user_id": "012",
+      "first_name": "Marcus",
+      "middle_name": null,
+      "last_name": "Chen",
+      "about": "Mid-level Full-Stack Developer with 4 years of experience building modern web applications using React, Node.js, and cloud technologies. Passionate about creating intuitive user interfaces and scalable backend systems. Strong focus on clean code, testing, and agile development practices.",
+      "email": "marcus.chen@devmail.io",
+      "dob": "1995-09-22",
+      "phone": "+1-415-555-0142",
+      "marital_status": "Single",
+      "gender": "Male",
+      "industry": "Software Engineering",
+      "is_valid_resume": true,
+      "created_at": "2022-01-20T10:15:00.000000",
+      "updated_at": "2024-12-01T09:45:22.000000"
+    },
+    "contact": {
+      "address_line_1": "2845 Market Street, Apt 12B",
+      "address_line_2": null,
+      "city": "San Francisco",
+      "postal_code": "94114",
+      "province": "California",
+      "country": "USA",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 4,
+        "domain_breakdown": {
+          "Full-Stack Development": 4,
+          "Frontend Development": 4,
+          "Backend Development": 3
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Stripe",
+          "organization_location": "San Francisco, USA",
+          "organization_url": "https://stripe.com",
+          "discipline": "Software Engineering",
+          "role": "Full-Stack Developer",
+          "job_title": "Full-Stack Software Engineer",
+          "description": "• Developing payment dashboard features using React, TypeScript, and GraphQL serving 2M+ users\n• Built real-time notification system using WebSockets and Redis, improving user engagement by 35%\n• Implemented automated testing strategy increasing code coverage from 45% to 85%\n• Optimized API response times by 40% through database query optimization and caching\n• Collaborate with design team to implement accessible, responsive UI components",
+          "is_currently_working": true,
+          "start_date": "2023-02-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Airbnb",
+          "organization_location": "San Francisco, USA",
+          "organization_url": "https://airbnb.com",
+          "discipline": "Web Development",
+          "role": "Software Engineer",
+          "job_title": "Software Engineer - Frontend",
+          "description": "• Developed host dashboard features using React and Redux, serving 4M+ hosts globally\n• Created reusable component library adopted by 3 teams, reducing development time by 30%\n• Implemented performance optimizations reducing initial page load time by 50%\n• Mentored 2 junior developers on React best practices and code review\n• Participated in on-call rotation supporting production systems",
+          "is_currently_working": false,
+          "start_date": "2021-06-15",
+          "end_date": "2023-01-20"
+        },
+        {
+          "organization_name": "TechStart Inc.",
+          "organization_location": "Palo Alto, USA",
+          "organization_url": "https://techstart.io",
+          "discipline": "Web Development",
+          "role": "Junior Developer",
+          "job_title": "Junior Full-Stack Developer",
+          "description": "• Built customer-facing web applications using React and Node.js\n• Developed RESTful APIs using Express.js and MongoDB\n• Implemented user authentication and authorization using JWT\n• Wrote unit and integration tests using Jest and React Testing Library\n• Participated in agile sprint planning and daily standups",
+          "is_currently_working": false,
+          "start_date": "2020-07-01",
+          "end_date": "2021-06-10"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 6,
+        "name": "Real-time Payment Dashboard",
+        "description": "Built comprehensive payment analytics dashboard with real-time updates, supporting multiple payment methods and currencies for enterprise clients.",
+        "relevant_industry": "FinTech",
+        "is_currently_working": true,
+        "start_date": "2023-06-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 21,
+            "skill": "React",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 22,
+            "skill": "TypeScript",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 23,
+            "skill": "GraphQL",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 24,
+            "skill": "Node.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 25,
+            "skill": "WebSocket",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 26,
+            "skill": "Redis",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 7,
+        "name": "Component Library System",
+        "description": "Designed and implemented company-wide React component library with Storybook documentation, improving development consistency and speed.",
+        "relevant_industry": "Software Engineering",
+        "is_currently_working": false,
+        "start_date": "2022-03-01",
+        "end_date": "2022-09-30",
+        "skills": [
+          {
+            "skill_id": 27,
+            "skill": "React",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 28,
+            "skill": "Storybook",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 29,
+            "skill": "CSS-in-JS",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 30,
+            "skill": "Jest",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 8,
+        "name": "E-commerce Platform Backend",
+        "description": "Developed scalable RESTful API for e-commerce platform handling 10k+ daily transactions with robust error handling and monitoring.",
+        "relevant_industry": "E-commerce",
+        "is_currently_working": false,
+        "start_date": "2021-01-15",
+        "end_date": "2021-12-31",
+        "skills": [
+          {
+            "skill_id": 31,
+            "skill": "Node.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 32,
+            "skill": "Express.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 33,
+            "skill": "MongoDB",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 34,
+            "skill": "JWT",
+            "level_of_skill": "Advanced",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 35,
+            "skill": "Docker",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 9,
+        "name": "Progressive Web App for Travel Booking",
+        "description": "Created offline-first PWA for travel bookings with service workers, enabling seamless user experience across devices and network conditions.",
+        "relevant_industry": "Travel Tech",
+        "is_currently_working": false,
+        "start_date": "2022-10-01",
+        "end_date": "2023-05-15",
+        "skills": [
+          {
+            "skill_id": 36,
+            "skill": "Progressive Web Apps",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 37,
+            "skill": "Service Workers",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 38,
+            "skill": "IndexedDB",
+            "level_of_skill": "Intermediate",
+            "system_rating": 6,
+            "candidate_rating": 6,
+            "final_rating": 6,
+            "description": null
+          },
+          {
+            "skill_id": 39,
+            "skill": "React",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 10,
+        "name": "CI/CD Pipeline Automation",
+        "description": "Implemented automated deployment pipeline using GitHub Actions and AWS, reducing deployment time from 2 hours to 15 minutes.",
+        "relevant_industry": "DevOps",
+        "is_currently_working": false,
+        "start_date": "2023-08-01",
+        "end_date": "2023-11-30",
+        "skills": [
+          {
+            "skill_id": 40,
+            "skill": "GitHub Actions",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 41,
+            "skill": "AWS",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 42,
+            "skill": "Docker",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Bachelor of Science in Computer Science",
+          "awarding_institution_name": "University of California, Berkeley",
+          "qualification_level": "Bachelor",
+          "specialization": "Computer Science",
+          "start_date": "2016-08-15",
+          "end_date": "2020-05-15",
+          "grade": "3.7/4.0 GPA",
+          "department": "Computer Science",
+          "faculty": "College of Engineering",
+          "batch": "2016-2020"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/marcus-chen-dev"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/marcuschen"
+      },
+      {
+        "platform": "Portfolio",
+        "url": "https://marcuschen.dev"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Mandarin",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "AWS Certified Developer - Associate",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-DEV-2023-MC-4521",
+        "issue_date": "2023-07-10",
+        "expiration_date": "2026-07-10"
+      },
+      {
+        "certification_name": "React - The Complete Guide",
+        "organization": "Udemy",
+        "credential_id": "UC-REACT-2021-8934",
+        "issue_date": "2021-03-22",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Node.js Application Development",
+        "organization": "Coursera - IBM",
+        "credential_id": "IBM-NODE-2022-7845",
+        "issue_date": "2022-01-15",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "TypeScript Advanced Types",
+        "organization": "Frontend Masters",
+        "credential_id": "FM-TS-2023-1234",
+        "issue_date": "2023-04-05",
+        "expiration_date": null
+      }
+    ]
+  }
+}

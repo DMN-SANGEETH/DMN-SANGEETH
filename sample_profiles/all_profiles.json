@@ -1,0 +1,4321 @@
+[
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "011",
+        "email": "aisha.kumar@techmail.com",
+        "created_at": "2021-03-15T08:30:00.000000",
+        "updated_at": "2024-11-20T14:22:33.000000"
+      },
+      "profile": {
+        "profiles_id": "PF011",
+        "user_id": "011",
+        "first_name": "Aisha",
+        "middle_name": "Priya",
+        "last_name": "Kumar",
+        "about": "Senior AI/ML Engineer with 7 years of experience specializing in Large Language Models, RAG systems, and deep learning. Passionate about building scalable ML solutions and advancing NLP technologies. Published researcher with multiple papers on transformer architectures and prompt engineering.",
+        "email": "aisha.kumar@techmail.com",
+        "dob": "1989-06-12",
+        "phone": "+91-98765-43210",
+        "marital_status": "Married",
+        "gender": "Female",
+        "industry": "AI/ML",
+        "is_valid_resume": true,
+        "created_at": "2021-03-15T08:30:00.000000",
+        "updated_at": "2024-11-20T14:22:33.000000"
+      },
+      "contact": {
+        "address_line_1": "Apartment 402, Prestige Tech Park",
+        "address_line_2": "Whitefield",
+        "city": "Bangalore",
+        "postal_code": "560066",
+        "province": "Karnataka",
+        "country": "India",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 7,
+          "domain_breakdown": {
+            "AI/ML": 7,
+            "NLP": 5,
+            "Software Engineering": 7
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "DeepMind Technologies",
+            "organization_location": "Bangalore, India",
+            "organization_url": "https://deepmind.com",
+            "discipline": "Artificial Intelligence",
+            "role": "Senior ML Engineer",
+            "job_title": "Senior AI/ML Engineer",
+            "description": "• Led development of RAG-based systems for enterprise knowledge management, improving retrieval accuracy by 45%\n• Architected and deployed LLM fine-tuning pipelines using LoRA and QLoRA techniques\n• Implemented prompt engineering frameworks that reduced hallucination rates by 30%\n• Mentored team of 4 junior engineers on ML best practices and model optimization\n• Published 2 research papers on transformer architectures at NeurIPS and ICML",
+            "is_currently_working": true,
+            "start_date": "2022-01-10",
+            "end_date": null
+          },
+          {
+            "organization_name": "Amazon Web Services",
+            "organization_location": "Seattle, USA",
+            "organization_url": "https://aws.amazon.com",
+            "discipline": "Machine Learning",
+            "role": "ML Engineer",
+            "job_title": "Machine Learning Engineer",
+            "description": "• Developed NLP models for Amazon Comprehend, processing over 1M documents daily\n• Built custom BERT variants for domain-specific text classification tasks\n• Optimized model inference latency by 60% through quantization and pruning\n• Collaborated with product teams to integrate ML features into AWS services\n• Contributed to SageMaker feature development",
+            "is_currently_working": false,
+            "start_date": "2019-06-01",
+            "end_date": "2021-12-31"
+          },
+          {
+            "organization_name": "Microsoft Research",
+            "organization_location": "Hyderabad, India",
+            "organization_url": "https://microsoft.com/research",
+            "discipline": "Natural Language Processing",
+            "role": "Research Engineer",
+            "job_title": "NLP Research Engineer",
+            "description": "• Conducted research on multilingual transformer models for Indian languages\n• Developed sentiment analysis models achieving 92% accuracy on Hindi text\n• Created benchmark datasets for low-resource language tasks\n• Collaborated with academic partners on joint research initiatives\n• Presented findings at ACL and EMNLP conferences",
+            "is_currently_working": false,
+            "start_date": "2017-07-15",
+            "end_date": "2019-05-20"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 1,
+          "name": "Enterprise RAG System",
+          "description": "Built a production-grade Retrieval Augmented Generation system for enterprise knowledge base, integrating vector databases with LLMs for accurate information retrieval and generation.",
+          "relevant_industry": "AI/ML",
+          "is_currently_working": true,
+          "start_date": "2023-03-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 1,
+              "skill": "LangChain",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": "Framework for LLM application development"
+            },
+            {
+              "skill_id": 2,
+              "skill": "OpenAI GPT-4",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": "Large language model integration"
+            },
+            {
+              "skill_id": 3,
+              "skill": "Pinecone",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Vector database for embeddings"
+            },
+            {
+              "skill_id": 4,
+              "skill": "Python",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 5,
+              "skill": "FastAPI",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 2,
+          "name": "LLM Fine-tuning Pipeline",
+          "description": "Developed automated pipeline for fine-tuning large language models using LoRA and QLoRA techniques, reducing training costs by 70% while maintaining performance.",
+          "relevant_industry": "AI/ML",
+          "is_currently_working": false,
+          "start_date": "2022-09-01",
+          "end_date": "2023-02-28",
+          "skills": [
+            {
+              "skill_id": 6,
+              "skill": "PyTorch",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": "Deep learning framework"
+            },
+            {
+              "skill_id": 7,
+              "skill": "HuggingFace Transformers",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 8,
+              "skill": "LoRA/QLoRA",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Parameter-efficient fine-tuning"
+            },
+            {
+              "skill_id": 9,
+              "skill": "CUDA",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 3,
+          "name": "Multilingual NLP Platform",
+          "description": "Created NLP platform supporting 15+ Indian languages for sentiment analysis, named entity recognition, and text classification tasks.",
+          "relevant_industry": "NLP",
+          "is_currently_working": false,
+          "start_date": "2020-01-15",
+          "end_date": "2021-08-30",
+          "skills": [
+            {
+              "skill_id": 10,
+              "skill": "BERT",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 11,
+              "skill": "TensorFlow",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 12,
+              "skill": "spaCy",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 13,
+              "skill": "Docker",
+              "level_of_skill": "Advanced",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 4,
+          "name": "Prompt Engineering Framework",
+          "description": "Developed systematic framework for prompt engineering and evaluation, reducing hallucinations and improving response quality across multiple LLM applications.",
+          "relevant_industry": "AI/ML",
+          "is_currently_working": false,
+          "start_date": "2023-06-01",
+          "end_date": "2024-01-15",
+          "skills": [
+            {
+              "skill_id": 14,
+              "skill": "Prompt Engineering",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 15,
+              "skill": "LLM Evaluation",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 16,
+              "skill": "Python",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 5,
+          "name": "AutoML Platform for NLP",
+          "description": "Built automated machine learning platform specifically for NLP tasks, enabling non-experts to build and deploy text classification models.",
+          "relevant_industry": "AI/ML",
+          "is_currently_working": false,
+          "start_date": "2018-11-01",
+          "end_date": "2019-05-30",
+          "skills": [
+            {
+              "skill_id": 17,
+              "skill": "scikit-learn",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 18,
+              "skill": "AutoML",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 19,
+              "skill": "Flask",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 20,
+              "skill": "PostgreSQL",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Master of Science in Computer Science",
+            "awarding_institution_name": "Indian Institute of Technology Bombay",
+            "qualification_level": "Master",
+            "specialization": "Artificial Intelligence and Machine Learning",
+            "start_date": "2015-08-01",
+            "end_date": "2017-06-30",
+            "grade": "9.2/10 CGPA",
+            "department": "Computer Science and Engineering",
+            "faculty": "Engineering",
+            "batch": "2015-2017"
+          },
+          {
+            "awarding_name": "Bachelor of Technology in Computer Science",
+            "awarding_institution_name": "National Institute of Technology Karnataka",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Science and Engineering",
+            "start_date": "2011-08-01",
+            "end_date": "2015-05-31",
+            "grade": "8.9/10 CGPA",
+            "department": "Computer Science and Engineering",
+            "faculty": "Engineering",
+            "batch": "2011-2015"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [
+        {
+          "title": "Efficient Fine-tuning of Large Language Models using LoRA",
+          "authors": "Aisha Kumar, et al.",
+          "publication": "NeurIPS 2023",
+          "date": "2023-12-10",
+          "url": "https://proceedings.neurips.cc/paper/2023/kumar-lora"
+        },
+        {
+          "title": "Reducing Hallucinations in RAG Systems through Improved Retrieval",
+          "authors": "Aisha Kumar, John Smith",
+          "publication": "ICML 2024",
+          "date": "2024-07-20",
+          "url": "https://icml.cc/virtual/2024/poster/24567"
+        }
+      ],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/aisha-kumar-ml"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/aisha-kumar"
+        },
+        {
+          "platform": "Personal Website",
+          "url": "https://aishakumar.dev"
+        },
+        {
+          "platform": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=aishakumar"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Hindi",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Kannada",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Tamil",
+          "proficiency": null
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "AWS Certified Machine Learning - Specialty",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-MLS-2022-AK-7849",
+          "issue_date": "2022-03-15",
+          "expiration_date": "2025-03-15"
+        },
+        {
+          "certification_name": "Deep Learning Specialization",
+          "organization": "Coursera - DeepLearning.AI",
+          "credential_id": "DLSPEC-2019-7834",
+          "issue_date": "2019-02-20",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "TensorFlow Developer Certificate",
+          "organization": "Google",
+          "credential_id": "TF-DEV-2020-AK-9012",
+          "issue_date": "2020-08-10",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Natural Language Processing with Transformers",
+          "organization": "HuggingFace",
+          "credential_id": "HF-NLP-2021-5678",
+          "issue_date": "2021-11-05",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "LangChain for LLM Application Development",
+          "organization": "DeepLearning.AI",
+          "credential_id": "DLAI-LC-2023-4521",
+          "issue_date": "2023-04-18",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "012",
+        "email": "marcus.chen@devmail.io",
+        "created_at": "2022-01-20T10:15:00.000000",
+        "updated_at": "2024-12-01T09:45:22.000000"
+      },
+      "profile": {
+        "profiles_id": "PF012",
+        "user_id": "012",
+        "first_name": "Marcus",
+        "middle_name": null,
+        "last_name": "Chen",
+        "about": "Mid-level Full-Stack Developer with 4 years of experience building modern web applications using React, Node.js, and cloud technologies. Passionate about creating intuitive user interfaces and scalable backend systems. Strong focus on clean code, testing, and agile development practices.",
+        "email": "marcus.chen@devmail.io",
+        "dob": "1995-09-22",
+        "phone": "+1-415-555-0142",
+        "marital_status": "Single",
+        "gender": "Male",
+        "industry": "Software Engineering",
+        "is_valid_resume": true,
+        "created_at": "2022-01-20T10:15:00.000000",
+        "updated_at": "2024-12-01T09:45:22.000000"
+      },
+      "contact": {
+        "address_line_1": "2845 Market Street, Apt 12B",
+        "address_line_2": null,
+        "city": "San Francisco",
+        "postal_code": "94114",
+        "province": "California",
+        "country": "USA",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 4,
+          "domain_breakdown": {
+            "Full-Stack Development": 4,
+            "Frontend Development": 4,
+            "Backend Development": 3
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Stripe",
+            "organization_location": "San Francisco, USA",
+            "organization_url": "https://stripe.com",
+            "discipline": "Software Engineering",
+            "role": "Full-Stack Developer",
+            "job_title": "Full-Stack Software Engineer",
+            "description": "• Developing payment dashboard features using React, TypeScript, and GraphQL serving 2M+ users\n• Built real-time notification system using WebSockets and Redis, improving user engagement by 35%\n• Implemented automated testing strategy increasing code coverage from 45% to 85%\n• Optimized API response times by 40% through database query optimization and caching\n• Collaborate with design team to implement accessible, responsive UI components",
+            "is_currently_working": true,
+            "start_date": "2023-02-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Airbnb",
+            "organization_location": "San Francisco, USA",
+            "organization_url": "https://airbnb.com",
+            "discipline": "Web Development",
+            "role": "Software Engineer",
+            "job_title": "Software Engineer - Frontend",
+            "description": "• Developed host dashboard features using React and Redux, serving 4M+ hosts globally\n• Created reusable component library adopted by 3 teams, reducing development time by 30%\n• Implemented performance optimizations reducing initial page load time by 50%\n• Mentored 2 junior developers on React best practices and code review\n• Participated in on-call rotation supporting production systems",
+            "is_currently_working": false,
+            "start_date": "2021-06-15",
+            "end_date": "2023-01-20"
+          },
+          {
+            "organization_name": "TechStart Inc.",
+            "organization_location": "Palo Alto, USA",
+            "organization_url": "https://techstart.io",
+            "discipline": "Web Development",
+            "role": "Junior Developer",
+            "job_title": "Junior Full-Stack Developer",
+            "description": "• Built customer-facing web applications using React and Node.js\n• Developed RESTful APIs using Express.js and MongoDB\n• Implemented user authentication and authorization using JWT\n• Wrote unit and integration tests using Jest and React Testing Library\n• Participated in agile sprint planning and daily standups",
+            "is_currently_working": false,
+            "start_date": "2020-07-01",
+            "end_date": "2021-06-10"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 6,
+          "name": "Real-time Payment Dashboard",
+          "description": "Built comprehensive payment analytics dashboard with real-time updates, supporting multiple payment methods and currencies for enterprise clients.",
+          "relevant_industry": "FinTech",
+          "is_currently_working": true,
+          "start_date": "2023-06-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 21,
+              "skill": "React",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 22,
+              "skill": "TypeScript",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 23,
+              "skill": "GraphQL",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 24,
+              "skill": "Node.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 25,
+              "skill": "WebSocket",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 26,
+              "skill": "Redis",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 7,
+          "name": "Component Library System",
+          "description": "Designed and implemented company-wide React component library with Storybook documentation, improving development consistency and speed.",
+          "relevant_industry": "Software Engineering",
+          "is_currently_working": false,
+          "start_date": "2022-03-01",
+          "end_date": "2022-09-30",
+          "skills": [
+            {
+              "skill_id": 27,
+              "skill": "React",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 28,
+              "skill": "Storybook",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 29,
+              "skill": "CSS-in-JS",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 30,
+              "skill": "Jest",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 8,
+          "name": "E-commerce Platform Backend",
+          "description": "Developed scalable RESTful API for e-commerce platform handling 10k+ daily transactions with robust error handling and monitoring.",
+          "relevant_industry": "E-commerce",
+          "is_currently_working": false,
+          "start_date": "2021-01-15",
+          "end_date": "2021-12-31",
+          "skills": [
+            {
+              "skill_id": 31,
+              "skill": "Node.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 32,
+              "skill": "Express.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 33,
+              "skill": "MongoDB",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 34,
+              "skill": "JWT",
+              "level_of_skill": "Advanced",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 35,
+              "skill": "Docker",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 9,
+          "name": "Progressive Web App for Travel Booking",
+          "description": "Created offline-first PWA for travel bookings with service workers, enabling seamless user experience across devices and network conditions.",
+          "relevant_industry": "Travel Tech",
+          "is_currently_working": false,
+          "start_date": "2022-10-01",
+          "end_date": "2023-05-15",
+          "skills": [
+            {
+              "skill_id": 36,
+              "skill": "Progressive Web Apps",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 37,
+              "skill": "Service Workers",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 38,
+              "skill": "IndexedDB",
+              "level_of_skill": "Intermediate",
+              "system_rating": 6,
+              "candidate_rating": 6,
+              "final_rating": 6,
+              "description": null
+            },
+            {
+              "skill_id": 39,
+              "skill": "React",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 10,
+          "name": "CI/CD Pipeline Automation",
+          "description": "Implemented automated deployment pipeline using GitHub Actions and AWS, reducing deployment time from 2 hours to 15 minutes.",
+          "relevant_industry": "DevOps",
+          "is_currently_working": false,
+          "start_date": "2023-08-01",
+          "end_date": "2023-11-30",
+          "skills": [
+            {
+              "skill_id": 40,
+              "skill": "GitHub Actions",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 41,
+              "skill": "AWS",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 42,
+              "skill": "Docker",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Bachelor of Science in Computer Science",
+            "awarding_institution_name": "University of California, Berkeley",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Science",
+            "start_date": "2016-08-15",
+            "end_date": "2020-05-15",
+            "grade": "3.7/4.0 GPA",
+            "department": "Computer Science",
+            "faculty": "College of Engineering",
+            "batch": "2016-2020"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/marcus-chen-dev"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/marcuschen"
+        },
+        {
+          "platform": "Portfolio",
+          "url": "https://marcuschen.dev"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Mandarin",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "AWS Certified Developer - Associate",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-DEV-2023-MC-4521",
+          "issue_date": "2023-07-10",
+          "expiration_date": "2026-07-10"
+        },
+        {
+          "certification_name": "React - The Complete Guide",
+          "organization": "Udemy",
+          "credential_id": "UC-REACT-2021-8934",
+          "issue_date": "2021-03-22",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Node.js Application Development",
+          "organization": "Coursera - IBM",
+          "credential_id": "IBM-NODE-2022-7845",
+          "issue_date": "2022-01-15",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "TypeScript Advanced Types",
+          "organization": "Frontend Masters",
+          "credential_id": "FM-TS-2023-1234",
+          "issue_date": "2023-04-05",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "013",
+        "email": "sarah.thompson@cloudops.uk",
+        "created_at": "2020-05-10T11:20:00.000000",
+        "updated_at": "2024-11-28T16:30:45.000000"
+      },
+      "profile": {
+        "profiles_id": "PF013",
+        "user_id": "013",
+        "first_name": "Sarah",
+        "middle_name": "Elizabeth",
+        "last_name": "Thompson",
+        "about": "Senior DevOps Engineer with 8 years of experience specializing in Kubernetes orchestration, CI/CD automation, and infrastructure as code. Expert in building reliable, scalable cloud infrastructure and implementing DevOps best practices. Passionate about improving developer productivity and system reliability.",
+        "email": "sarah.thompson@cloudops.uk",
+        "dob": "1987-11-08",
+        "phone": "+44-20-7946-0958",
+        "marital_status": "Married",
+        "gender": "Female",
+        "industry": "DevOps",
+        "is_valid_resume": true,
+        "created_at": "2020-05-10T11:20:00.000000",
+        "updated_at": "2024-11-28T16:30:45.000000"
+      },
+      "contact": {
+        "address_line_1": "42 Kensington Gardens Square",
+        "address_line_2": "Flat 3A",
+        "city": "London",
+        "postal_code": "W2 4BQ",
+        "province": "Greater London",
+        "country": "United Kingdom",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 8,
+          "domain_breakdown": {
+            "DevOps": 8,
+            "Cloud Engineering": 8,
+            "System Administration": 5
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Spotify",
+            "organization_location": "London, UK",
+            "organization_url": "https://spotify.com",
+            "discipline": "DevOps Engineering",
+            "role": "Senior DevOps Engineer",
+            "job_title": "Senior DevOps Engineer",
+            "description": "• Leading infrastructure modernization initiative migrating 200+ services to Kubernetes\n• Architected multi-region disaster recovery system achieving 99.99% uptime SLA\n• Implemented GitOps practices using ArgoCD and Flux, reducing deployment errors by 60%\n• Built comprehensive observability stack using Prometheus, Grafana, and ELK\n• Mentoring team of 5 DevOps engineers on cloud-native technologies\n• Reduced infrastructure costs by 40% through resource optimization and autoscaling",
+            "is_currently_working": true,
+            "start_date": "2021-09-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Revolut",
+            "organization_location": "London, UK",
+            "organization_url": "https://revolut.com",
+            "discipline": "DevOps Engineering",
+            "role": "DevOps Engineer",
+            "job_title": "DevOps Engineer",
+            "description": "• Managed AWS infrastructure supporting 15M+ users across multiple regions\n• Developed CI/CD pipelines using Jenkins and GitLab CI for 100+ microservices\n• Implemented infrastructure as code using Terraform and CloudFormation\n• Created automated security scanning and compliance checking in deployment pipelines\n• Optimized database performance and implemented automated backup strategies\n• Participated in 24/7 on-call rotation for production support",
+            "is_currently_working": false,
+            "start_date": "2019-03-15",
+            "end_date": "2021-08-20"
+          },
+          {
+            "organization_name": "Deliveroo",
+            "organization_location": "London, UK",
+            "organization_url": "https://deliveroo.com",
+            "discipline": "Site Reliability Engineering",
+            "role": "Site Reliability Engineer",
+            "job_title": "Site Reliability Engineer",
+            "description": "• Built monitoring and alerting systems reducing MTTR by 50%\n• Automated incident response procedures using Python and Bash scripts\n• Managed containerized applications using Docker and Docker Compose\n• Implemented log aggregation and analysis using ELK stack\n• Conducted performance testing and capacity planning\n• Improved deployment frequency from weekly to daily releases",
+            "is_currently_working": false,
+            "start_date": "2017-01-10",
+            "end_date": "2019-03-01"
+          },
+          {
+            "organization_name": "Marks & Spencer Digital",
+            "organization_location": "London, UK",
+            "organization_url": "https://marksandspencer.com",
+            "discipline": "System Administration",
+            "role": "Linux System Administrator",
+            "job_title": "Linux System Administrator",
+            "description": "• Managed 200+ Linux servers supporting e-commerce platform\n• Automated system provisioning and configuration using Ansible\n• Implemented backup and disaster recovery procedures\n• Performed security hardening and patch management\n• Provided technical support for application deployment\n• Documented system architecture and operational procedures",
+            "is_currently_working": false,
+            "start_date": "2016-06-01",
+            "end_date": "2016-12-31"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 11,
+          "name": "Multi-Region Kubernetes Platform",
+          "description": "Designed and implemented enterprise-grade Kubernetes platform spanning 5 AWS regions with automated failover, supporting 200+ microservices.",
+          "relevant_industry": "Cloud Infrastructure",
+          "is_currently_working": true,
+          "start_date": "2022-06-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 43,
+              "skill": "Kubernetes",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": "Container orchestration platform"
+            },
+            {
+              "skill_id": 44,
+              "skill": "AWS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 45,
+              "skill": "Terraform",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 46,
+              "skill": "Helm",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 47,
+              "skill": "ArgoCD",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "GitOps continuous delivery"
+            },
+            {
+              "skill_id": 48,
+              "skill": "Istio",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Service mesh"
+            }
+          ]
+        },
+        {
+          "project_id": 12,
+          "name": "Observability Platform Implementation",
+          "description": "Built comprehensive observability solution with metrics, logging, and tracing for distributed microservices architecture.",
+          "relevant_industry": "DevOps",
+          "is_currently_working": false,
+          "start_date": "2021-10-01",
+          "end_date": "2022-05-31",
+          "skills": [
+            {
+              "skill_id": 49,
+              "skill": "Prometheus",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 50,
+              "skill": "Grafana",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 51,
+              "skill": "ELK Stack",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Elasticsearch, Logstash, Kibana"
+            },
+            {
+              "skill_id": 52,
+              "skill": "Jaeger",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Distributed tracing"
+            }
+          ]
+        },
+        {
+          "project_id": 13,
+          "name": "CI/CD Pipeline Modernization",
+          "description": "Redesigned CI/CD pipelines for 100+ microservices, implementing security scanning, automated testing, and progressive delivery.",
+          "relevant_industry": "DevOps",
+          "is_currently_working": false,
+          "start_date": "2020-02-01",
+          "end_date": "2020-12-31",
+          "skills": [
+            {
+              "skill_id": 53,
+              "skill": "GitLab CI",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 54,
+              "skill": "Jenkins",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 55,
+              "skill": "Docker",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 56,
+              "skill": "SonarQube",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Code quality analysis"
+            }
+          ]
+        },
+        {
+          "project_id": 14,
+          "name": "Infrastructure as Code Framework",
+          "description": "Created standardized IaC framework using Terraform modules for consistent infrastructure provisioning across teams.",
+          "relevant_industry": "Cloud Infrastructure",
+          "is_currently_working": false,
+          "start_date": "2019-06-01",
+          "end_date": "2020-01-31",
+          "skills": [
+            {
+              "skill_id": 57,
+              "skill": "Terraform",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 58,
+              "skill": "AWS CloudFormation",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 59,
+              "skill": "Python",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 15,
+          "name": "Automated Security Compliance",
+          "description": "Implemented automated security scanning and compliance checking for infrastructure and applications meeting SOC 2 requirements.",
+          "relevant_industry": "Security",
+          "is_currently_working": false,
+          "start_date": "2018-09-01",
+          "end_date": "2019-05-31",
+          "skills": [
+            {
+              "skill_id": 60,
+              "skill": "Vault",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": "Secrets management"
+            },
+            {
+              "skill_id": 61,
+              "skill": "Trivy",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Vulnerability scanner"
+            },
+            {
+              "skill_id": 62,
+              "skill": "AWS IAM",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 16,
+          "name": "Disaster Recovery Automation",
+          "description": "Developed automated disaster recovery procedures with regular testing, achieving RTO of 15 minutes and RPO of 5 minutes.",
+          "relevant_industry": "Cloud Infrastructure",
+          "is_currently_working": false,
+          "start_date": "2023-02-01",
+          "end_date": "2023-09-30",
+          "skills": [
+            {
+              "skill_id": 63,
+              "skill": "AWS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 64,
+              "skill": "Bash Scripting",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 65,
+              "skill": "Ansible",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Master of Science in Computer Science",
+            "awarding_institution_name": "Imperial College London",
+            "qualification_level": "Master",
+            "specialization": "Distributed Systems",
+            "start_date": "2014-09-01",
+            "end_date": "2015-09-30",
+            "grade": "Distinction",
+            "department": "Department of Computing",
+            "faculty": "Faculty of Engineering",
+            "batch": "2014-2015"
+          },
+          {
+            "awarding_name": "Bachelor of Engineering in Computer Science",
+            "awarding_institution_name": "University of Manchester",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Science and Engineering",
+            "start_date": "2010-09-01",
+            "end_date": "2014-06-30",
+            "grade": "First Class Honours",
+            "department": "School of Computer Science",
+            "faculty": "Faculty of Science and Engineering",
+            "batch": "2010-2014"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/sarah-thompson-devops"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/sarahthompson"
+        },
+        {
+          "platform": "Personal Blog",
+          "url": "https://devops-insights.sarahthompson.tech"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "French",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "Certified Kubernetes Administrator (CKA)",
+          "organization": "Cloud Native Computing Foundation",
+          "credential_id": "CKA-2021-ST-9876",
+          "issue_date": "2021-05-20",
+          "expiration_date": "2024-05-20"
+        },
+        {
+          "certification_name": "Certified Kubernetes Security Specialist (CKS)",
+          "organization": "Cloud Native Computing Foundation",
+          "credential_id": "CKS-2022-ST-4532",
+          "issue_date": "2022-08-15",
+          "expiration_date": "2025-08-15"
+        },
+        {
+          "certification_name": "AWS Certified Solutions Architect - Professional",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-SAP-2020-ST-7821",
+          "issue_date": "2020-11-10",
+          "expiration_date": "2023-11-10"
+        },
+        {
+          "certification_name": "AWS Certified DevOps Engineer - Professional",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-DOP-2021-ST-3456",
+          "issue_date": "2021-03-22",
+          "expiration_date": "2024-03-22"
+        },
+        {
+          "certification_name": "HashiCorp Certified: Terraform Associate",
+          "organization": "HashiCorp",
+          "credential_id": "HC-TF-2020-ST-8901",
+          "issue_date": "2020-07-18",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Linux Foundation Certified Engineer (LFCE)",
+          "organization": "Linux Foundation",
+          "credential_id": "LFCE-2019-ST-2341",
+          "issue_date": "2019-09-05",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "014",
+        "email": "kenji.tanaka@datascience.jp",
+        "created_at": "2021-08-05T09:00:00.000000",
+        "updated_at": "2024-12-05T11:15:30.000000"
+      },
+      "profile": {
+        "profiles_id": "PF014",
+        "user_id": "014",
+        "first_name": "Kenji",
+        "middle_name": null,
+        "last_name": "Tanaka",
+        "about": "Mid-level Data Scientist with 5 years of experience in machine learning, predictive analytics, and data-driven decision making. Specialized in building end-to-end ML pipelines and deploying models at scale. Strong background in statistical analysis and business intelligence.",
+        "email": "kenji.tanaka@datascience.jp",
+        "dob": "1992-03-18",
+        "phone": "+81-3-5555-1234",
+        "marital_status": null,
+        "gender": "Male",
+        "industry": "Data Science",
+        "is_valid_resume": true,
+        "created_at": "2021-08-05T09:00:00.000000",
+        "updated_at": "2024-12-05T11:15:30.000000"
+      },
+      "contact": {
+        "address_line_1": "3-15-7 Shibuya",
+        "address_line_2": "Mansion Heights 801",
+        "city": "Tokyo",
+        "postal_code": "150-0002",
+        "province": "Tokyo",
+        "country": "Japan",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 5,
+          "domain_breakdown": {
+            "Data Science": 5,
+            "Machine Learning": 5,
+            "Analytics": 4
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Rakuten Group",
+            "organization_location": "Tokyo, Japan",
+            "organization_url": "https://rakuten.com",
+            "discipline": "Data Science",
+            "role": "Senior Data Scientist",
+            "job_title": "Senior Data Scientist",
+            "description": "• Developing recommendation systems serving 100M+ users using collaborative filtering and deep learning\n• Built customer churn prediction models achieving 85% accuracy, reducing churn by 15%\n• Leading A/B testing framework implementation for data-driven product decisions\n• Mentoring 3 junior data scientists on ML best practices and model development\n• Collaborated with engineering teams to deploy models to production using MLOps practices\n• Published internal research on personalization algorithms",
+            "is_currently_working": true,
+            "start_date": "2022-04-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Sony Corporation",
+            "organization_location": "Tokyo, Japan",
+            "organization_url": "https://sony.com",
+            "discipline": "Data Analytics",
+            "role": "Data Scientist",
+            "job_title": "Data Scientist",
+            "description": "• Analyzed user behavior data from PlayStation Network with 100M+ active users\n• Developed predictive models for game purchase patterns and user engagement\n• Created automated reporting dashboards using Tableau and Power BI\n• Implemented time series forecasting for revenue prediction with 92% accuracy\n• Collaborated with product teams to optimize in-game monetization strategies\n• Reduced data processing time by 60% through pipeline optimization",
+            "is_currently_working": false,
+            "start_date": "2020-06-15",
+            "end_date": "2022-03-20"
+          },
+          {
+            "organization_name": "LINE Corporation",
+            "organization_location": "Tokyo, Japan",
+            "organization_url": "https://linecorp.com",
+            "discipline": "Data Analytics",
+            "role": "Junior Data Analyst",
+            "job_title": "Junior Data Analyst",
+            "description": "• Performed exploratory data analysis on messaging app usage patterns\n• Built SQL queries and ETL pipelines for data extraction and transformation\n• Created visualization dashboards for business stakeholders\n• Assisted in A/B testing analysis for new features\n• Documented data analysis processes and best practices\n• Supported senior data scientists with data preparation and cleaning",
+            "is_currently_working": false,
+            "start_date": "2019-07-01",
+            "end_date": "2020-06-10"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 17,
+          "name": "E-commerce Recommendation Engine",
+          "description": "Built sophisticated recommendation system using collaborative filtering and neural networks, increasing conversion rate by 25%.",
+          "relevant_industry": "E-commerce",
+          "is_currently_working": true,
+          "start_date": "2023-01-15",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 66,
+              "skill": "Python",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 67,
+              "skill": "TensorFlow",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 68,
+              "skill": "Collaborative Filtering",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 69,
+              "skill": "Apache Spark",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 70,
+              "skill": "Scikit-learn",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 18,
+          "name": "Customer Churn Prediction System",
+          "description": "Developed machine learning model to predict customer churn with 85% accuracy, enabling proactive retention strategies.",
+          "relevant_industry": "Data Science",
+          "is_currently_working": false,
+          "start_date": "2022-06-01",
+          "end_date": "2022-12-31",
+          "skills": [
+            {
+              "skill_id": 71,
+              "skill": "XGBoost",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 72,
+              "skill": "Random Forest",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 73,
+              "skill": "Feature Engineering",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 74,
+              "skill": "Pandas",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 19,
+          "name": "Time Series Forecasting Platform",
+          "description": "Created automated forecasting system for revenue and demand prediction using ARIMA and Prophet models.",
+          "relevant_industry": "Analytics",
+          "is_currently_working": false,
+          "start_date": "2021-03-01",
+          "end_date": "2021-10-31",
+          "skills": [
+            {
+              "skill_id": 75,
+              "skill": "Prophet",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": "Facebook's time series forecasting tool"
+            },
+            {
+              "skill_id": 76,
+              "skill": "ARIMA",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 77,
+              "skill": "Statsmodels",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 78,
+              "skill": "Python",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 20,
+          "name": "A/B Testing Framework",
+          "description": "Implemented comprehensive A/B testing platform for data-driven product decisions with statistical rigor.",
+          "relevant_industry": "Analytics",
+          "is_currently_working": false,
+          "start_date": "2023-05-01",
+          "end_date": "2023-11-30",
+          "skills": [
+            {
+              "skill_id": 79,
+              "skill": "Statistical Analysis",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 80,
+              "skill": "Hypothesis Testing",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 81,
+              "skill": "SciPy",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 21,
+          "name": "User Segmentation Analysis",
+          "description": "Performed clustering analysis to identify user segments for targeted marketing campaigns, improving ROI by 30%.",
+          "relevant_industry": "Marketing Analytics",
+          "is_currently_working": false,
+          "start_date": "2020-09-01",
+          "end_date": "2021-02-28",
+          "skills": [
+            {
+              "skill_id": 82,
+              "skill": "K-Means Clustering",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 83,
+              "skill": "DBSCAN",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            },
+            {
+              "skill_id": 84,
+              "skill": "PCA",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Principal Component Analysis"
+            },
+            {
+              "skill_id": 85,
+              "skill": "Matplotlib",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 86,
+              "skill": "Seaborn",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 22,
+          "name": "NLP Sentiment Analysis Tool",
+          "description": "Built sentiment analysis tool for customer reviews using BERT, processing 1M+ reviews monthly.",
+          "relevant_industry": "NLP",
+          "is_currently_working": false,
+          "start_date": "2021-11-01",
+          "end_date": "2022-03-31",
+          "skills": [
+            {
+              "skill_id": 87,
+              "skill": "BERT",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 88,
+              "skill": "NLP",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 89,
+              "skill": "HuggingFace",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Master of Science in Data Science",
+            "awarding_institution_name": "University of Tokyo",
+            "qualification_level": "Master",
+            "specialization": "Data Science and Machine Learning",
+            "start_date": "2017-04-01",
+            "end_date": "2019-03-31",
+            "grade": "3.8/4.0 GPA",
+            "department": "Graduate School of Information Science and Technology",
+            "faculty": "Engineering",
+            "batch": "2017-2019"
+          },
+          {
+            "awarding_name": "Bachelor of Science in Mathematics",
+            "awarding_institution_name": "Kyoto University",
+            "qualification_level": "Bachelor",
+            "specialization": "Applied Mathematics and Statistics",
+            "start_date": "2013-04-01",
+            "end_date": "2017-03-31",
+            "grade": "3.7/4.0 GPA",
+            "department": "Faculty of Science",
+            "faculty": "Science",
+            "batch": "2013-2017"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/kenji-tanaka-ds"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/kenjitanaka"
+        },
+        {
+          "platform": "Kaggle",
+          "url": "https://kaggle.com/kenjitanaka"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Japanese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Mandarin",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "Google Cloud Professional Data Engineer",
+          "organization": "Google Cloud",
+          "credential_id": "GCP-PDE-2023-KT-5678",
+          "issue_date": "2023-05-12",
+          "expiration_date": "2025-05-12"
+        },
+        {
+          "certification_name": "Machine Learning Specialization",
+          "organization": "Coursera - Stanford University",
+          "credential_id": "MLSPEC-2020-3421",
+          "issue_date": "2020-09-18",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Deep Learning Specialization",
+          "organization": "Coursera - DeepLearning.AI",
+          "credential_id": "DLSPEC-2021-8934",
+          "issue_date": "2021-02-25",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "TensorFlow Developer Certificate",
+          "organization": "Google",
+          "credential_id": "TF-DEV-2021-KT-4567",
+          "issue_date": "2021-07-30",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Advanced SQL for Data Science",
+          "organization": "DataCamp",
+          "credential_id": "DC-SQL-2022-7891",
+          "issue_date": "2022-03-10",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "015",
+        "email": "sofia.rodriguez@mobiledev.es",
+        "created_at": "2023-02-14T14:30:00.000000",
+        "updated_at": "2024-12-10T10:20:15.000000"
+      },
+      "profile": {
+        "profiles_id": "PF015",
+        "user_id": "015",
+        "first_name": "Sofia",
+        "middle_name": "Isabella",
+        "last_name": "Rodriguez",
+        "about": "Junior Mobile Developer with 2 years of experience building cross-platform mobile applications using React Native and Flutter. Passionate about creating beautiful, performant mobile experiences. Quick learner with a strong foundation in mobile development patterns and best practices.",
+        "email": "sofia.rodriguez@mobiledev.es",
+        "dob": "1999-07-25",
+        "phone": "+34-91-555-7890",
+        "marital_status": "Single",
+        "gender": "Female",
+        "industry": "Mobile Development",
+        "is_valid_resume": true,
+        "created_at": "2023-02-14T14:30:00.000000",
+        "updated_at": "2024-12-10T10:20:15.000000"
+      },
+      "contact": {
+        "address_line_1": "Calle de Alcalá 123, 4º B",
+        "address_line_2": null,
+        "city": "Madrid",
+        "postal_code": "28009",
+        "province": "Madrid",
+        "country": "Spain",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 2,
+          "domain_breakdown": {
+            "Mobile Development": 2,
+            "React Native": 2,
+            "Flutter": 1
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Glovo",
+            "organization_location": "Barcelona, Spain",
+            "organization_url": "https://glovoapp.com",
+            "discipline": "Mobile Development",
+            "role": "Mobile Developer",
+            "job_title": "Mobile Application Developer",
+            "description": "• Developing features for delivery app using React Native, serving 10M+ users across Europe\n• Implementing real-time order tracking with geolocation and push notifications\n• Collaborating with design team to implement pixel-perfect UI components\n• Writing unit tests using Jest and integration tests with Detox\n• Participating in code reviews and sprint planning sessions\n• Fixed critical bugs improving app stability and user ratings",
+            "is_currently_working": true,
+            "start_date": "2023-06-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Cabify",
+            "organization_location": "Madrid, Spain",
+            "organization_url": "https://cabify.com",
+            "discipline": "Mobile Development",
+            "role": "Junior Mobile Developer",
+            "job_title": "Junior Mobile Developer",
+            "description": "• Built rider app features using React Native for iOS and Android platforms\n• Implemented payment integration with Stripe and local payment providers\n• Developed offline functionality for improved user experience\n• Worked with RESTful APIs and Redux for state management\n• Assisted in migrating legacy code to modern React hooks\n• Participated in agile development process and daily standups",
+            "is_currently_working": false,
+            "start_date": "2022-08-15",
+            "end_date": "2023-05-20"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 23,
+          "name": "Food Delivery Mobile App",
+          "description": "Contributed to building comprehensive food delivery app with real-time tracking, payment integration, and restaurant discovery features.",
+          "relevant_industry": "Mobile Development",
+          "is_currently_working": true,
+          "start_date": "2023-06-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 90,
+              "skill": "React Native",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 91,
+              "skill": "JavaScript",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 92,
+              "skill": "Redux",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            },
+            {
+              "skill_id": 93,
+              "skill": "React Navigation",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 94,
+              "skill": "Firebase",
+              "level_of_skill": "Intermediate",
+              "system_rating": 6,
+              "candidate_rating": 6,
+              "final_rating": 6,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 24,
+          "name": "Ride-sharing Mobile App",
+          "description": "Developed rider application with features for booking rides, real-time driver tracking, and seamless payment processing.",
+          "relevant_industry": "Mobile Development",
+          "is_currently_working": false,
+          "start_date": "2022-08-15",
+          "end_date": "2023-05-20",
+          "skills": [
+            {
+              "skill_id": 95,
+              "skill": "React Native",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 6,
+              "final_rating": 6.5,
+              "description": null
+            },
+            {
+              "skill_id": 96,
+              "skill": "Google Maps API",
+              "level_of_skill": "Intermediate",
+              "system_rating": 6,
+              "candidate_rating": 6,
+              "final_rating": 6,
+              "description": null
+            },
+            {
+              "skill_id": 97,
+              "skill": "Stripe Integration",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 98,
+              "skill": "Redux Toolkit",
+              "level_of_skill": "Intermediate",
+              "system_rating": 6,
+              "candidate_rating": 6,
+              "final_rating": 6,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 25,
+          "name": "Personal Finance Tracker App",
+          "description": "Built personal project for expense tracking and budget management using Flutter with local database storage.",
+          "relevant_industry": "FinTech",
+          "is_currently_working": false,
+          "start_date": "2023-01-10",
+          "end_date": "2023-04-30",
+          "skills": [
+            {
+              "skill_id": 99,
+              "skill": "Flutter",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 100,
+              "skill": "Dart",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 101,
+              "skill": "SQLite",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 102,
+              "skill": "Provider",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 4,
+              "final_rating": 4.5,
+              "description": "Flutter state management"
+            }
+          ]
+        },
+        {
+          "project_id": 26,
+          "name": "Social Media App Clone",
+          "description": "Created Instagram-like social media app as learning project with image sharing, likes, and comments functionality.",
+          "relevant_industry": "Social Media",
+          "is_currently_working": false,
+          "start_date": "2022-03-01",
+          "end_date": "2022-07-31",
+          "skills": [
+            {
+              "skill_id": 103,
+              "skill": "React Native",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 104,
+              "skill": "Firebase Authentication",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 105,
+              "skill": "Firebase Storage",
+              "level_of_skill": "Beginner",
+              "system_rating": 5,
+              "candidate_rating": 5,
+              "final_rating": 5,
+              "description": null
+            },
+            {
+              "skill_id": 106,
+              "skill": "Expo",
+              "level_of_skill": "Intermediate",
+              "system_rating": 6,
+              "candidate_rating": 6,
+              "final_rating": 6,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Bachelor of Science in Computer Engineering",
+            "awarding_institution_name": "Universidad Politécnica de Madrid",
+            "qualification_level": "Bachelor",
+            "specialization": "Software Engineering",
+            "start_date": "2018-09-01",
+            "end_date": "2022-06-30",
+            "grade": "8.5/10",
+            "department": "School of Computer Engineering",
+            "faculty": "Engineering and Architecture",
+            "batch": "2018-2022"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/sofia-rodriguez-mobile"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/sofiarodriguez"
+        },
+        {
+          "platform": "Portfolio",
+          "url": "https://sofiarodriguez.dev"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Spanish",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Catalan",
+          "proficiency": null
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "React Native - The Practical Guide",
+          "organization": "Udemy",
+          "credential_id": "UC-RN-2022-SR-8901",
+          "issue_date": "2022-07-15",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Flutter & Dart - Complete Guide",
+          "organization": "Udemy",
+          "credential_id": "UC-FL-2023-SR-3456",
+          "issue_date": "2023-02-20",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Mobile App Development Bootcamp",
+          "organization": "Ironhack",
+          "credential_id": "IH-MAD-2022-4567",
+          "issue_date": "2022-06-30",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "016",
+        "email": "alex.mueller@securitypro.de",
+        "created_at": "2019-11-22T08:45:00.000000",
+        "updated_at": "2024-12-08T13:55:20.000000"
+      },
+      "profile": {
+        "profiles_id": "PF016",
+        "user_id": "016",
+        "first_name": "Alex",
+        "middle_name": null,
+        "last_name": "Mueller",
+        "about": "Senior Cybersecurity Engineer with 9 years of experience in penetration testing, security architecture, and threat intelligence. Specialized in offensive security, vulnerability assessment, and implementing defense-in-depth strategies. Certified ethical hacker with expertise in securing enterprise infrastructure.",
+        "email": "alex.mueller@securitypro.de",
+        "dob": "1986-04-15",
+        "phone": "+49-30-5555-8901",
+        "marital_status": null,
+        "gender": "Non-binary",
+        "industry": "Cybersecurity",
+        "is_valid_resume": true,
+        "created_at": "2019-11-22T08:45:00.000000",
+        "updated_at": "2024-12-08T13:55:20.000000"
+      },
+      "contact": {
+        "address_line_1": "Friedrichstraße 95",
+        "address_line_2": "Building C, Floor 8",
+        "city": "Berlin",
+        "postal_code": "10117",
+        "province": "Berlin",
+        "country": "Germany",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 9,
+          "domain_breakdown": {
+            "Cybersecurity": 9,
+            "Penetration Testing": 7,
+            "Security Architecture": 5
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Siemens AG",
+            "organization_location": "Munich, Germany",
+            "organization_url": "https://siemens.com",
+            "discipline": "Cybersecurity",
+            "role": "Senior Security Engineer",
+            "job_title": "Senior Cybersecurity Engineer",
+            "description": "• Leading security assessments and penetration testing for critical industrial control systems\n• Architecting zero-trust security framework for enterprise infrastructure serving 300k+ employees\n• Conducting red team operations to identify vulnerabilities in production systems\n• Implementing SIEM solutions using Splunk for threat detection and incident response\n• Managing security incident response team and coordinating with SOC\n• Developed security training program for development teams on secure coding practices",
+            "is_currently_working": true,
+            "start_date": "2021-06-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Deutsche Bank",
+            "organization_location": "Frankfurt, Germany",
+            "organization_url": "https://db.com",
+            "discipline": "Information Security",
+            "role": "Security Engineer",
+            "job_title": "Information Security Engineer",
+            "description": "• Performed vulnerability assessments and penetration testing for banking applications\n• Implemented security controls for PCI DSS and GDPR compliance\n• Conducted security code reviews and threat modeling sessions\n• Managed Web Application Firewall (WAF) and intrusion detection systems\n• Responded to security incidents and performed forensic analysis\n• Collaborated with development teams to remediate security vulnerabilities",
+            "is_currently_working": false,
+            "start_date": "2018-09-15",
+            "end_date": "2021-05-20"
+          },
+          {
+            "organization_name": "SAP SE",
+            "organization_location": "Walldorf, Germany",
+            "organization_url": "https://sap.com",
+            "discipline": "Application Security",
+            "role": "Application Security Engineer",
+            "job_title": "Application Security Engineer",
+            "description": "• Performed security testing of SAP enterprise applications\n• Implemented automated security scanning in CI/CD pipelines\n• Conducted security awareness training for developers\n• Analyzed and triaged security vulnerabilities from bug bounty program\n• Developed secure coding guidelines and security standards\n• Participated in security architecture reviews",
+            "is_currently_working": false,
+            "start_date": "2016-07-01",
+            "end_date": "2018-09-01"
+          },
+          {
+            "organization_name": "Accenture",
+            "organization_location": "Berlin, Germany",
+            "organization_url": "https://accenture.com",
+            "discipline": "Security Consulting",
+            "role": "Junior Security Consultant",
+            "job_title": "Junior Security Consultant",
+            "description": "• Assisted in security audits and compliance assessments for clients\n• Performed network security testing and configuration reviews\n• Documented security findings and created remediation reports\n• Supported implementation of security controls and best practices\n• Conducted security awareness training sessions\n• Gained experience with various security tools and technologies",
+            "is_currently_working": false,
+            "start_date": "2015-08-01",
+            "end_date": "2016-06-30"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 27,
+          "name": "Enterprise Zero-Trust Architecture",
+          "description": "Designed and implemented zero-trust security architecture for global enterprise with 300k+ users, reducing breach risk by 70%.",
+          "relevant_industry": "Cybersecurity",
+          "is_currently_working": true,
+          "start_date": "2022-09-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 107,
+              "skill": "Zero Trust Architecture",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 108,
+              "skill": "Network Security",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 109,
+              "skill": "Identity and Access Management",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 110,
+              "skill": "Azure AD",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 111,
+              "skill": "Multi-Factor Authentication",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 28,
+          "name": "Red Team Assessment Program",
+          "description": "Established comprehensive red team program conducting simulated attacks to identify security gaps in enterprise infrastructure.",
+          "relevant_industry": "Cybersecurity",
+          "is_currently_working": false,
+          "start_date": "2021-06-01",
+          "end_date": "2022-08-31",
+          "skills": [
+            {
+              "skill_id": 112,
+              "skill": "Penetration Testing",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 113,
+              "skill": "Metasploit",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 114,
+              "skill": "Burp Suite",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 115,
+              "skill": "Cobalt Strike",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 116,
+              "skill": "OSINT",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Open-Source Intelligence"
+            }
+          ]
+        },
+        {
+          "project_id": 29,
+          "name": "SIEM Implementation and Tuning",
+          "description": "Deployed and tuned Splunk SIEM for threat detection and incident response, reducing false positives by 60%.",
+          "relevant_industry": "Cybersecurity",
+          "is_currently_working": false,
+          "start_date": "2019-11-01",
+          "end_date": "2020-10-31",
+          "skills": [
+            {
+              "skill_id": 117,
+              "skill": "Splunk",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 118,
+              "skill": "SIEM",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": "Security Information and Event Management"
+            },
+            {
+              "skill_id": 119,
+              "skill": "Log Analysis",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 120,
+              "skill": "Threat Hunting",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 30,
+          "name": "Web Application Security Program",
+          "description": "Built comprehensive web application security testing program including automated scanning and manual penetration testing.",
+          "relevant_industry": "Application Security",
+          "is_currently_working": false,
+          "start_date": "2018-03-01",
+          "end_date": "2019-10-31",
+          "skills": [
+            {
+              "skill_id": 121,
+              "skill": "OWASP Top 10",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 122,
+              "skill": "Web Application Testing",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 123,
+              "skill": "SQL Injection",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 124,
+              "skill": "XSS Prevention",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": "Cross-Site Scripting"
+            }
+          ]
+        },
+        {
+          "project_id": 31,
+          "name": "Cloud Security Posture Management",
+          "description": "Implemented cloud security monitoring and compliance automation for multi-cloud environment (AWS, Azure, GCP).",
+          "relevant_industry": "Cloud Security",
+          "is_currently_working": false,
+          "start_date": "2020-11-01",
+          "end_date": "2021-05-31",
+          "skills": [
+            {
+              "skill_id": 125,
+              "skill": "AWS Security",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 126,
+              "skill": "Azure Security",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 127,
+              "skill": "Cloud Security Posture Management",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 128,
+              "skill": "Terraform",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 32,
+          "name": "Incident Response Automation",
+          "description": "Developed automated incident response playbooks reducing mean time to respond from hours to minutes.",
+          "relevant_industry": "Cybersecurity",
+          "is_currently_working": false,
+          "start_date": "2023-03-01",
+          "end_date": "2023-10-31",
+          "skills": [
+            {
+              "skill_id": 129,
+              "skill": "Incident Response",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 130,
+              "skill": "Python",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 131,
+              "skill": "SOAR",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": "Security Orchestration, Automation and Response"
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Master of Science in Information Security",
+            "awarding_institution_name": "Technical University of Munich",
+            "qualification_level": "Master",
+            "specialization": "Cybersecurity and Cryptography",
+            "start_date": "2013-10-01",
+            "end_date": "2015-09-30",
+            "grade": "1.3 (Very Good)",
+            "department": "Department of Computer Science",
+            "faculty": "Informatics",
+            "batch": "2013-2015"
+          },
+          {
+            "awarding_name": "Bachelor of Science in Computer Science",
+            "awarding_institution_name": "RWTH Aachen University",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Science",
+            "start_date": "2009-10-01",
+            "end_date": "2013-08-31",
+            "grade": "1.5 (Good)",
+            "department": "Department of Computer Science",
+            "faculty": "Mathematics, Computer Science and Natural Sciences",
+            "batch": "2009-2013"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/alex-mueller-security"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/alexmueller"
+        },
+        {
+          "platform": "Security Blog",
+          "url": "https://securityinsights.alexmueller.de"
+        }
+      ],
+      "languages": [
+        {
+          "language": "German",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "French",
+          "proficiency": "Intermediate"
+        },
+        {
+          "language": "Russian",
+          "proficiency": null
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "Offensive Security Certified Professional (OSCP)",
+          "organization": "Offensive Security",
+          "credential_id": "OSCP-2018-AM-7891",
+          "issue_date": "2018-11-20",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Certified Ethical Hacker (CEH)",
+          "organization": "EC-Council",
+          "credential_id": "CEH-2017-AM-4523",
+          "issue_date": "2017-06-15",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "GIAC Security Essentials (GSEC)",
+          "organization": "GIAC",
+          "credential_id": "GSEC-2019-AM-8934",
+          "issue_date": "2019-03-10",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Certified Information Systems Security Professional (CISSP)",
+          "organization": "ISC2",
+          "credential_id": "CISSP-2020-AM-1234",
+          "issue_date": "2020-09-25",
+          "expiration_date": "2023-09-25"
+        },
+        {
+          "certification_name": "AWS Certified Security - Specialty",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-SEC-2021-AM-5678",
+          "issue_date": "2021-07-12",
+          "expiration_date": "2024-07-12"
+        },
+        {
+          "certification_name": "Certified Cloud Security Professional (CCSP)",
+          "organization": "ISC2",
+          "credential_id": "CCSP-2022-AM-9012",
+          "issue_date": "2022-05-18",
+          "expiration_date": "2025-05-18"
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "017",
+        "email": "rajesh.patel@cloudarch.ca",
+        "created_at": "2018-03-10T07:20:00.000000",
+        "updated_at": "2024-12-12T15:40:50.000000"
+      },
+      "profile": {
+        "profiles_id": "PF017",
+        "user_id": "017",
+        "first_name": "Rajesh",
+        "middle_name": "Kumar",
+        "last_name": "Patel",
+        "about": "Lead Cloud Architect with 12 years of experience designing and implementing enterprise-scale cloud solutions on AWS and Azure. Expert in cloud migration, multi-cloud architecture, and cost optimization. Proven track record of leading large-scale digital transformation initiatives and building high-performing cloud engineering teams.",
+        "email": "rajesh.patel@cloudarch.ca",
+        "dob": "1981-09-30",
+        "phone": "+1-416-555-2345",
+        "marital_status": "Married",
+        "gender": "Male",
+        "industry": "Cloud Architecture",
+        "is_valid_resume": true,
+        "created_at": "2018-03-10T07:20:00.000000",
+        "updated_at": "2024-12-12T15:40:50.000000"
+      },
+      "contact": {
+        "address_line_1": "88 Queen Street East, Suite 2501",
+        "address_line_2": null,
+        "city": "Toronto",
+        "postal_code": "M5C 1B8",
+        "province": "Ontario",
+        "country": "Canada",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 12,
+          "domain_breakdown": {
+            "Cloud Architecture": 12,
+            "AWS": 10,
+            "Azure": 8,
+            "Enterprise Architecture": 6
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Shopify",
+            "organization_location": "Ottawa, Canada",
+            "organization_url": "https://shopify.com",
+            "discipline": "Cloud Architecture",
+            "role": "Lead Cloud Architect",
+            "job_title": "Lead Cloud Architect",
+            "description": "• Leading cloud architecture for e-commerce platform serving 2M+ merchants globally\n• Architected multi-region, multi-cloud infrastructure ensuring 99.99% uptime SLA\n• Managing team of 15 cloud engineers and architects across multiple regions\n• Designed serverless architecture reducing operational costs by $5M annually\n• Implemented FinOps practices achieving 40% reduction in cloud spending\n• Driving cloud-native transformation and microservices adoption\n• Conducting architecture reviews and establishing cloud governance standards",
+            "is_currently_working": true,
+            "start_date": "2020-08-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Royal Bank of Canada (RBC)",
+            "organization_location": "Toronto, Canada",
+            "organization_url": "https://rbc.com",
+            "discipline": "Cloud Engineering",
+            "role": "Senior Cloud Architect",
+            "job_title": "Senior Cloud Architect",
+            "description": "• Designed hybrid cloud architecture for banking applications supporting 16M+ customers\n• Led migration of 200+ applications from on-premise to AWS cloud\n• Implemented disaster recovery solution with RTO < 1 hour and RPO < 15 minutes\n• Established cloud security framework compliant with financial regulations\n• Mentored cloud engineering teams on AWS best practices\n• Reduced infrastructure costs by 35% through reserved instances and right-sizing\n• Collaborated with compliance and security teams on cloud governance",
+            "is_currently_working": false,
+            "start_date": "2017-05-15",
+            "end_date": "2020-07-20"
+          },
+          {
+            "organization_name": "IBM Canada",
+            "organization_location": "Toronto, Canada",
+            "organization_url": "https://ibm.com",
+            "discipline": "Cloud Solutions",
+            "role": "Cloud Solutions Architect",
+            "job_title": "Cloud Solutions Architect",
+            "description": "• Designed cloud solutions for enterprise clients across various industries\n• Led proof-of-concept implementations for cloud migration projects\n• Provided technical leadership for multi-cloud integration projects\n• Conducted cloud readiness assessments and TCO analysis\n• Developed reference architectures for common cloud patterns\n• Delivered technical workshops and training on cloud technologies\n• Supported pre-sales activities with technical expertise",
+            "is_currently_working": false,
+            "start_date": "2014-09-01",
+            "end_date": "2017-05-01"
+          },
+          {
+            "organization_name": "CGI Group",
+            "organization_location": "Montreal, Canada",
+            "organization_url": "https://cgi.com",
+            "discipline": "Infrastructure Engineering",
+            "role": "Senior Infrastructure Engineer",
+            "job_title": "Senior Infrastructure Engineer",
+            "description": "• Managed enterprise infrastructure for government and private sector clients\n• Implemented virtualization solutions using VMware and Hyper-V\n• Designed high-availability systems with 99.9% uptime\n• Performed capacity planning and performance optimization\n• Led datacenter consolidation and migration projects\n• Provided 24/7 support for critical infrastructure systems",
+            "is_currently_working": false,
+            "start_date": "2012-06-01",
+            "end_date": "2014-08-30"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 33,
+          "name": "Global E-commerce Cloud Platform",
+          "description": "Architected planet-scale e-commerce infrastructure on AWS serving 2M+ merchants with 99.99% uptime across 15 regions.",
+          "relevant_industry": "Cloud Architecture",
+          "is_currently_working": true,
+          "start_date": "2021-06-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 132,
+              "skill": "AWS",
+              "level_of_skill": "Expert",
+              "system_rating": 10,
+              "candidate_rating": 10,
+              "final_rating": 10,
+              "description": null
+            },
+            {
+              "skill_id": 133,
+              "skill": "Terraform",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 134,
+              "skill": "Kubernetes",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 135,
+              "skill": "CloudFormation",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 136,
+              "skill": "Multi-Region Architecture",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 137,
+              "skill": "AWS EKS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 34,
+          "name": "Serverless Microservices Platform",
+          "description": "Designed and implemented serverless architecture using AWS Lambda, reducing costs by $5M annually while improving scalability.",
+          "relevant_industry": "Cloud Architecture",
+          "is_currently_working": false,
+          "start_date": "2022-03-01",
+          "end_date": "2023-09-30",
+          "skills": [
+            {
+              "skill_id": 138,
+              "skill": "AWS Lambda",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 139,
+              "skill": "API Gateway",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 140,
+              "skill": "DynamoDB",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 141,
+              "skill": "EventBridge",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 142,
+              "skill": "Step Functions",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 35,
+          "name": "Banking Cloud Migration",
+          "description": "Led migration of 200+ banking applications from on-premise to AWS, ensuring compliance with financial regulations.",
+          "relevant_industry": "Financial Services",
+          "is_currently_working": false,
+          "start_date": "2018-01-15",
+          "end_date": "2020-06-30",
+          "skills": [
+            {
+              "skill_id": 143,
+              "skill": "AWS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 144,
+              "skill": "Cloud Migration",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 145,
+              "skill": "AWS Migration Hub",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 146,
+              "skill": "Disaster Recovery",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 147,
+              "skill": "Compliance",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 36,
+          "name": "Multi-Cloud Integration Platform",
+          "description": "Architected integration solution connecting AWS and Azure environments with unified monitoring and governance.",
+          "relevant_industry": "Cloud Architecture",
+          "is_currently_working": false,
+          "start_date": "2019-09-01",
+          "end_date": "2020-07-31",
+          "skills": [
+            {
+              "skill_id": 148,
+              "skill": "AWS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 149,
+              "skill": "Azure",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 150,
+              "skill": "Multi-Cloud Strategy",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 151,
+              "skill": "Cloud Governance",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 37,
+          "name": "FinOps Cost Optimization Initiative",
+          "description": "Implemented FinOps practices and tools achieving 40% reduction in cloud costs across enterprise infrastructure.",
+          "relevant_industry": "Cloud FinOps",
+          "is_currently_working": false,
+          "start_date": "2021-01-01",
+          "end_date": "2021-12-31",
+          "skills": [
+            {
+              "skill_id": 152,
+              "skill": "FinOps",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 153,
+              "skill": "Cost Optimization",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 154,
+              "skill": "AWS Cost Explorer",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 155,
+              "skill": "Reserved Instances",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 38,
+          "name": "Container Orchestration Platform",
+          "description": "Built enterprise Kubernetes platform on AWS EKS supporting 500+ microservices across development teams.",
+          "relevant_industry": "DevOps",
+          "is_currently_working": false,
+          "start_date": "2020-02-01",
+          "end_date": "2020-11-30",
+          "skills": [
+            {
+              "skill_id": 156,
+              "skill": "Kubernetes",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 157,
+              "skill": "AWS EKS",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 158,
+              "skill": "Helm",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 159,
+              "skill": "Service Mesh",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 39,
+          "name": "Data Lake Architecture",
+          "description": "Designed scalable data lake on AWS S3 with analytics capabilities processing 10TB+ data daily.",
+          "relevant_industry": "Data Engineering",
+          "is_currently_working": false,
+          "start_date": "2017-06-01",
+          "end_date": "2018-03-31",
+          "skills": [
+            {
+              "skill_id": 160,
+              "skill": "AWS S3",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 161,
+              "skill": "AWS Glue",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 162,
+              "skill": "AWS Athena",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 163,
+              "skill": "Data Lake Architecture",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 40,
+          "name": "Infrastructure as Code Framework",
+          "description": "Established comprehensive IaC framework using Terraform for consistent infrastructure provisioning across teams.",
+          "relevant_industry": "Cloud Engineering",
+          "is_currently_working": false,
+          "start_date": "2015-10-01",
+          "end_date": "2016-08-31",
+          "skills": [
+            {
+              "skill_id": 164,
+              "skill": "Terraform",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 165,
+              "skill": "Infrastructure as Code",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 166,
+              "skill": "CI/CD",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Master of Business Administration (MBA)",
+            "awarding_institution_name": "University of Toronto - Rotman School of Management",
+            "qualification_level": "Master",
+            "specialization": "Technology Leadership",
+            "start_date": "2016-09-01",
+            "end_date": "2018-06-30",
+            "grade": "3.8/4.0 GPA",
+            "department": "Rotman School of Management",
+            "faculty": "Business",
+            "batch": "2016-2018"
+          },
+          {
+            "awarding_name": "Bachelor of Engineering in Computer Engineering",
+            "awarding_institution_name": "University of Waterloo",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Engineering",
+            "start_date": "2007-09-01",
+            "end_date": "2012-04-30",
+            "grade": "3.7/4.0 GPA",
+            "department": "Electrical and Computer Engineering",
+            "faculty": "Engineering",
+            "batch": "2007-2012"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/rajesh-patel-cloud"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/rajeshpatel"
+        },
+        {
+          "platform": "Medium",
+          "url": "https://medium.com/@rajeshpatel-cloud"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Gujarati",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Hindi",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "French",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "AWS Certified Solutions Architect - Professional",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-SAP-2019-RP-1234",
+          "issue_date": "2019-04-15",
+          "expiration_date": "2025-04-15"
+        },
+        {
+          "certification_name": "AWS Certified DevOps Engineer - Professional",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-DOP-2020-RP-5678",
+          "issue_date": "2020-08-20",
+          "expiration_date": "2026-08-20"
+        },
+        {
+          "certification_name": "Azure Solutions Architect Expert",
+          "organization": "Microsoft",
+          "credential_id": "MS-AZ-2018-RP-9012",
+          "issue_date": "2018-11-10",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Google Cloud Professional Cloud Architect",
+          "organization": "Google Cloud",
+          "credential_id": "GCP-PCA-2021-RP-3456",
+          "issue_date": "2021-06-05",
+          "expiration_date": "2023-06-05"
+        },
+        {
+          "certification_name": "Certified Kubernetes Administrator (CKA)",
+          "organization": "Cloud Native Computing Foundation",
+          "credential_id": "CKA-2020-RP-7890",
+          "issue_date": "2020-03-18",
+          "expiration_date": "2023-03-18"
+        },
+        {
+          "certification_name": "HashiCorp Certified: Terraform Associate",
+          "organization": "HashiCorp",
+          "credential_id": "HC-TF-2019-RP-2345",
+          "issue_date": "2019-09-12",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "018",
+        "email": "emily.watson@backend.au",
+        "created_at": "2020-10-08T12:00:00.000000",
+        "updated_at": "2024-12-03T14:30:25.000000"
+      },
+      "profile": {
+        "profiles_id": "PF018",
+        "user_id": "018",
+        "first_name": "Emily",
+        "middle_name": "Grace",
+        "last_name": "Watson",
+        "about": "Mid-level Backend Engineer with 6 years of experience building scalable microservices and distributed systems. Specialized in Go, Node.js, and event-driven architectures. Passionate about performance optimization, clean architecture, and building resilient backend systems.",
+        "email": "emily.watson@backend.au",
+        "dob": "1991-12-05",
+        "phone": "+61-2-5555-3456",
+        "marital_status": "Single",
+        "gender": "Female",
+        "industry": "Backend Engineering",
+        "is_valid_resume": true,
+        "created_at": "2020-10-08T12:00:00.000000",
+        "updated_at": "2024-12-03T14:30:25.000000"
+      },
+      "contact": {
+        "address_line_1": "152 Elizabeth Street, Apartment 1807",
+        "address_line_2": null,
+        "city": "Sydney",
+        "postal_code": "2000",
+        "province": "New South Wales",
+        "country": "Australia",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 6,
+          "domain_breakdown": {
+            "Backend Engineering": 6,
+            "Microservices": 5,
+            "Distributed Systems": 4
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "Atlassian",
+            "organization_location": "Sydney, Australia",
+            "organization_url": "https://atlassian.com",
+            "discipline": "Backend Engineering",
+            "role": "Senior Backend Engineer",
+            "job_title": "Senior Backend Engineer",
+            "description": "• Building microservices for Jira and Confluence using Go and Node.js, serving 200k+ organizations\n• Architecting event-driven systems using Kafka for real-time data processing\n• Implementing GraphQL APIs for improved client-server communication\n• Optimized database queries reducing API latency by 45%\n• Leading technical design discussions and code reviews\n• Mentoring 3 junior engineers on backend development best practices\n• Participating in on-call rotation for production support",
+            "is_currently_working": true,
+            "start_date": "2022-07-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Canva",
+            "organization_location": "Sydney, Australia",
+            "organization_url": "https://canva.com",
+            "discipline": "Backend Development",
+            "role": "Backend Engineer",
+            "job_title": "Backend Software Engineer",
+            "description": "• Developed RESTful APIs using Node.js and Express for design platform with 100M+ users\n• Built microservices handling image processing and rendering workflows\n• Implemented caching strategies using Redis improving response times by 60%\n• Designed and deployed asynchronous job processing system using RabbitMQ\n• Collaborated with frontend teams on API design and integration\n• Wrote comprehensive unit and integration tests achieving 90% coverage",
+            "is_currently_working": false,
+            "start_date": "2020-03-15",
+            "end_date": "2022-06-20"
+          },
+          {
+            "organization_name": "REA Group",
+            "organization_location": "Melbourne, Australia",
+            "organization_url": "https://rea-group.com",
+            "discipline": "Software Development",
+            "role": "Software Engineer",
+            "job_title": "Software Engineer - Backend",
+            "description": "• Built backend services for real estate platform realestate.com.au\n• Developed search and filtering APIs using Elasticsearch\n• Implemented authentication and authorization using OAuth 2.0\n• Created automated testing pipelines using Jest and Mocha\n• Worked with MySQL and PostgreSQL databases\n• Participated in agile ceremonies and sprint planning",
+            "is_currently_working": false,
+            "start_date": "2018-08-01",
+            "end_date": "2020-03-01"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 41,
+          "name": "Event-Driven Microservices Platform",
+          "description": "Built scalable event-driven architecture using Kafka and Go microservices, processing 1M+ events daily.",
+          "relevant_industry": "Backend Engineering",
+          "is_currently_working": true,
+          "start_date": "2023-02-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 167,
+              "skill": "Go",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 168,
+              "skill": "Apache Kafka",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 169,
+              "skill": "Event-Driven Architecture",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 170,
+              "skill": "PostgreSQL",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 171,
+              "skill": "Docker",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 42,
+          "name": "GraphQL API Gateway",
+          "description": "Designed and implemented GraphQL gateway aggregating data from 20+ microservices for unified API interface.",
+          "relevant_industry": "API Development",
+          "is_currently_working": false,
+          "start_date": "2022-09-01",
+          "end_date": "2023-05-31",
+          "skills": [
+            {
+              "skill_id": 172,
+              "skill": "GraphQL",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 173,
+              "skill": "Node.js",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 174,
+              "skill": "Apollo Server",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 175,
+              "skill": "TypeScript",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 43,
+          "name": "Image Processing Service",
+          "description": "Built high-performance image processing microservice handling 500k+ images daily with automatic optimization and resizing.",
+          "relevant_industry": "Backend Engineering",
+          "is_currently_working": false,
+          "start_date": "2021-01-15",
+          "end_date": "2021-11-30",
+          "skills": [
+            {
+              "skill_id": 176,
+              "skill": "Node.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 177,
+              "skill": "Sharp",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Image processing library"
+            },
+            {
+              "skill_id": 178,
+              "skill": "AWS S3",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 179,
+              "skill": "RabbitMQ",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 44,
+          "name": "Real Estate Search API",
+          "description": "Developed sophisticated search and filtering API using Elasticsearch, supporting 2M+ property listings.",
+          "relevant_industry": "Real Estate Tech",
+          "is_currently_working": false,
+          "start_date": "2019-03-01",
+          "end_date": "2020-02-28",
+          "skills": [
+            {
+              "skill_id": 180,
+              "skill": "Elasticsearch",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 181,
+              "skill": "Node.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 182,
+              "skill": "Express.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 183,
+              "skill": "MySQL",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 45,
+          "name": "Distributed Caching System",
+          "description": "Implemented distributed caching layer using Redis Cluster, reducing database load by 70% and improving API response times.",
+          "relevant_industry": "Backend Engineering",
+          "is_currently_working": false,
+          "start_date": "2020-06-01",
+          "end_date": "2020-12-31",
+          "skills": [
+            {
+              "skill_id": 184,
+              "skill": "Redis",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 185,
+              "skill": "Redis Cluster",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 186,
+              "skill": "Caching Strategies",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 46,
+          "name": "Authentication & Authorization Service",
+          "description": "Built centralized authentication service using OAuth 2.0 and JWT, serving 50+ microservices.",
+          "relevant_industry": "Security",
+          "is_currently_working": false,
+          "start_date": "2021-05-01",
+          "end_date": "2022-01-31",
+          "skills": [
+            {
+              "skill_id": 187,
+              "skill": "OAuth 2.0",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 188,
+              "skill": "JWT",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 189,
+              "skill": "Node.js",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 190,
+              "skill": "PostgreSQL",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Bachelor of Computer Science",
+            "awarding_institution_name": "University of New South Wales",
+            "qualification_level": "Bachelor",
+            "specialization": "Software Engineering",
+            "start_date": "2014-02-01",
+            "end_date": "2017-11-30",
+            "grade": "Distinction (6.5/7.0 GPA)",
+            "department": "School of Computer Science and Engineering",
+            "faculty": "Engineering",
+            "batch": "2014-2017"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/emily-watson-backend"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/emilywatson"
+        },
+        {
+          "platform": "Dev.to",
+          "url": "https://dev.to/emilywatson"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Japanese",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "AWS Certified Developer - Associate",
+          "organization": "Amazon Web Services",
+          "credential_id": "AWS-DEV-2021-EW-7890",
+          "issue_date": "2021-04-18",
+          "expiration_date": "2024-04-18"
+        },
+        {
+          "certification_name": "MongoDB Certified Developer",
+          "organization": "MongoDB University",
+          "credential_id": "MONGO-DEV-2020-EW-4567",
+          "issue_date": "2020-09-22",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Microservices Architecture",
+          "organization": "Coursera - University of Alberta",
+          "credential_id": "MSA-2022-EW-1234",
+          "issue_date": "2022-03-15",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Go Programming Complete Guide",
+          "organization": "Udemy",
+          "credential_id": "UC-GO-2023-EW-8901",
+          "issue_date": "2023-01-10",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Apache Kafka Fundamentals",
+          "organization": "Confluent",
+          "credential_id": "KAFKA-2023-EW-5678",
+          "issue_date": "2023-06-05",
+          "expiration_date": null
+        }
+      ]
+    }
+  },
+  {
+    "success": true,
+    "message": "Profile retrieved",
+    "data": {
+      "user": {
+        "user_id": "019",
+        "email": "lucas.silva@vision.br",
+        "created_at": "2020-07-18T10:30:00.000000",
+        "updated_at": "2024-12-11T12:45:18.000000"
+      },
+      "profile": {
+        "profiles_id": "PF019",
+        "user_id": "019",
+        "first_name": "Lucas",
+        "middle_name": "Fernando",
+        "last_name": "Silva",
+        "about": "Senior Computer Vision Engineer with 7 years of experience in deep learning, object detection, and image segmentation. Specialized in building production-grade computer vision systems for autonomous vehicles, medical imaging, and retail analytics. Expert in PyTorch, OpenCV, and deploying models at scale.",
+        "email": "lucas.silva@vision.br",
+        "dob": "1988-05-20",
+        "phone": "+55-11-98765-4321",
+        "marital_status": "Married",
+        "gender": "Male",
+        "industry": "Computer Vision",
+        "is_valid_resume": true,
+        "created_at": "2020-07-18T10:30:00.000000",
+        "updated_at": "2024-12-11T12:45:18.000000"
+      },
+      "contact": {
+        "address_line_1": "Avenida Paulista 1578, Apt 2205",
+        "address_line_2": "Bela Vista",
+        "city": "São Paulo",
+        "postal_code": "01310-200",
+        "province": "São Paulo",
+        "country": "Brazil",
+        "is_current_address": true
+      },
+      "experience": {
+        "summary": {
+          "total_years": 7,
+          "domain_breakdown": {
+            "Computer Vision": 7,
+            "Deep Learning": 7,
+            "Machine Learning": 6
+          }
+        },
+        "experiences": [
+          {
+            "organization_name": "NVIDIA",
+            "organization_location": "São Paulo, Brazil",
+            "organization_url": "https://nvidia.com",
+            "discipline": "Computer Vision Engineering",
+            "role": "Senior Computer Vision Engineer",
+            "job_title": "Senior Computer Vision Engineer",
+            "description": "• Developing computer vision solutions for autonomous vehicle perception systems\n• Built object detection models using YOLO and Faster R-CNN achieving 95%+ accuracy\n• Implemented real-time semantic segmentation for lane detection and road scene understanding\n• Optimized deep learning models for edge deployment on Jetson platform\n• Leading team of 4 CV engineers on perception pipeline development\n• Published research on 3D object detection at CVPR conference\n• Collaborating with automotive partners on autonomous driving technology",
+            "is_currently_working": true,
+            "start_date": "2022-03-01",
+            "end_date": null
+          },
+          {
+            "organization_name": "Nubank",
+            "organization_location": "São Paulo, Brazil",
+            "organization_url": "https://nubank.com.br",
+            "discipline": "Machine Learning Engineering",
+            "role": "Computer Vision Engineer",
+            "job_title": "Computer Vision ML Engineer",
+            "description": "• Developed document verification system using OCR and deep learning for KYC process\n• Built face recognition system for biometric authentication with 99.5% accuracy\n• Implemented liveness detection to prevent spoofing attacks\n• Created data annotation pipelines and quality assurance processes\n• Reduced document verification time from 2 days to 2 minutes\n• Deployed models to production serving 70M+ users",
+            "is_currently_working": false,
+            "start_date": "2020-01-15",
+            "end_date": "2022-02-20"
+          },
+          {
+            "organization_name": "iFood",
+            "organization_location": "São Paulo, Brazil",
+            "organization_url": "https://ifood.com.br",
+            "discipline": "Computer Vision",
+            "role": "Computer Vision Engineer",
+            "job_title": "Computer Vision Engineer",
+            "description": "• Built food recognition system for automated menu digitization\n• Developed quality control system for restaurant food images\n• Implemented image similarity search for recipe recommendations\n• Created automated image tagging and categorization pipeline\n• Worked with large-scale image datasets (10M+ images)\n• Improved menu creation efficiency by 70% through automation",
+            "is_currently_working": false,
+            "start_date": "2018-06-01",
+            "end_date": "2019-12-31"
+          },
+          {
+            "organization_name": "Universidade de São Paulo (USP)",
+            "organization_location": "São Paulo, Brazil",
+            "organization_url": "https://usp.br",
+            "discipline": "Research",
+            "role": "Research Assistant",
+            "job_title": "Computer Vision Research Assistant",
+            "description": "• Conducted research on medical image analysis for cancer detection\n• Developed deep learning models for histopathology image classification\n• Implemented image segmentation algorithms for tumor boundary detection\n• Published research papers in medical imaging conferences\n• Collaborated with hospital partners on clinical validation\n• Taught undergraduate courses on computer vision fundamentals",
+            "is_currently_working": false,
+            "start_date": "2017-03-01",
+            "end_date": "2018-05-31"
+          }
+        ]
+      },
+      "projects": [
+        {
+          "project_id": 47,
+          "name": "Autonomous Vehicle Perception System",
+          "description": "Built end-to-end perception pipeline for self-driving cars including object detection, tracking, and semantic segmentation.",
+          "relevant_industry": "Autonomous Vehicles",
+          "is_currently_working": true,
+          "start_date": "2022-09-01",
+          "end_date": null,
+          "skills": [
+            {
+              "skill_id": 191,
+              "skill": "PyTorch",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 192,
+              "skill": "YOLO",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": "Object detection"
+            },
+            {
+              "skill_id": 193,
+              "skill": "Semantic Segmentation",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 194,
+              "skill": "3D Object Detection",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 195,
+              "skill": "Point Cloud Processing",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 196,
+              "skill": "CUDA",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 48,
+          "name": "Document Verification System",
+          "description": "Developed AI-powered document verification system using OCR and deep learning for automated KYC processing.",
+          "relevant_industry": "FinTech",
+          "is_currently_working": false,
+          "start_date": "2020-06-01",
+          "end_date": "2021-12-31",
+          "skills": [
+            {
+              "skill_id": 197,
+              "skill": "OCR",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Optical Character Recognition"
+            },
+            {
+              "skill_id": 198,
+              "skill": "Tesseract",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 199,
+              "skill": "Document Analysis",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 200,
+              "skill": "OpenCV",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 201,
+              "skill": "Python",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 49,
+          "name": "Face Recognition & Liveness Detection",
+          "description": "Built biometric authentication system with face recognition and anti-spoofing capabilities for mobile banking app.",
+          "relevant_industry": "Security",
+          "is_currently_working": false,
+          "start_date": "2021-01-15",
+          "end_date": "2022-02-28",
+          "skills": [
+            {
+              "skill_id": 202,
+              "skill": "Face Recognition",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 203,
+              "skill": "FaceNet",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 204,
+              "skill": "Liveness Detection",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 205,
+              "skill": "Dlib",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 50,
+          "name": "Food Recognition System",
+          "description": "Created deep learning model for automated food recognition and classification supporting 500+ dish categories.",
+          "relevant_industry": "Food Tech",
+          "is_currently_working": false,
+          "start_date": "2018-08-01",
+          "end_date": "2019-11-30",
+          "skills": [
+            {
+              "skill_id": 206,
+              "skill": "Image Classification",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 207,
+              "skill": "ResNet",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 208,
+              "skill": "Transfer Learning",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 209,
+              "skill": "Data Augmentation",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 51,
+          "name": "Medical Image Segmentation",
+          "description": "Developed deep learning models for tumor segmentation in histopathology images for cancer diagnosis.",
+          "relevant_industry": "Healthcare",
+          "is_currently_working": false,
+          "start_date": "2017-06-01",
+          "end_date": "2018-05-31",
+          "skills": [
+            {
+              "skill_id": 210,
+              "skill": "U-Net",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": "Image segmentation architecture"
+            },
+            {
+              "skill_id": 211,
+              "skill": "Medical Imaging",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 212,
+              "skill": "Image Segmentation",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 8,
+              "final_rating": 8.5,
+              "description": null
+            },
+            {
+              "skill_id": 213,
+              "skill": "TensorFlow",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 52,
+          "name": "Real-time Object Tracking",
+          "description": "Implemented multi-object tracking system for surveillance and retail analytics using deep SORT algorithm.",
+          "relevant_industry": "Retail Analytics",
+          "is_currently_working": false,
+          "start_date": "2019-03-01",
+          "end_date": "2019-12-31",
+          "skills": [
+            {
+              "skill_id": 214,
+              "skill": "Object Tracking",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 215,
+              "skill": "DeepSORT",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": null
+            },
+            {
+              "skill_id": 216,
+              "skill": "OpenCV",
+              "level_of_skill": "Expert",
+              "system_rating": 9,
+              "candidate_rating": 9,
+              "final_rating": 9,
+              "description": null
+            },
+            {
+              "skill_id": 217,
+              "skill": "Video Processing",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 53,
+          "name": "Edge AI Deployment",
+          "description": "Optimized and deployed computer vision models on edge devices (Jetson, Raspberry Pi) for real-time inference.",
+          "relevant_industry": "Edge Computing",
+          "is_currently_working": false,
+          "start_date": "2023-01-01",
+          "end_date": "2023-08-31",
+          "skills": [
+            {
+              "skill_id": 218,
+              "skill": "TensorRT",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": "NVIDIA inference optimizer"
+            },
+            {
+              "skill_id": 219,
+              "skill": "ONNX",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": "Model interchange format"
+            },
+            {
+              "skill_id": 220,
+              "skill": "Model Optimization",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            },
+            {
+              "skill_id": 221,
+              "skill": "Quantization",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            }
+          ]
+        },
+        {
+          "project_id": 54,
+          "name": "Image Quality Enhancement",
+          "description": "Built image super-resolution and denoising models using GANs for improving low-quality images.",
+          "relevant_industry": "Computer Vision",
+          "is_currently_working": false,
+          "start_date": "2020-03-01",
+          "end_date": "2020-09-30",
+          "skills": [
+            {
+              "skill_id": 222,
+              "skill": "GANs",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 7,
+              "final_rating": 7.5,
+              "description": "Generative Adversarial Networks"
+            },
+            {
+              "skill_id": 223,
+              "skill": "Super Resolution",
+              "level_of_skill": "Intermediate",
+              "system_rating": 7,
+              "candidate_rating": 7,
+              "final_rating": 7,
+              "description": null
+            },
+            {
+              "skill_id": 224,
+              "skill": "Image Enhancement",
+              "level_of_skill": "Advanced",
+              "system_rating": 8,
+              "candidate_rating": 8,
+              "final_rating": 8,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "education": {
+        "tertiary": [
+          {
+            "awarding_name": "Doctor of Philosophy (PhD) in Computer Science",
+            "awarding_institution_name": "Universidade de São Paulo (USP)",
+            "qualification_level": "PhD",
+            "specialization": "Computer Vision and Deep Learning",
+            "start_date": "2019-03-01",
+            "end_date": "2023-12-15",
+            "grade": null,
+            "department": "Institute of Mathematics and Statistics",
+            "faculty": "Science",
+            "batch": "2019-2023"
+          },
+          {
+            "awarding_name": "Master of Science in Computer Science",
+            "awarding_institution_name": "Universidade de São Paulo (USP)",
+            "qualification_level": "Master",
+            "specialization": "Artificial Intelligence",
+            "start_date": "2015-03-01",
+            "end_date": "2017-02-28",
+            "grade": "9.2/10",
+            "department": "Institute of Mathematics and Statistics",
+            "faculty": "Science",
+            "batch": "2015-2017"
+          },
+          {
+            "awarding_name": "Bachelor of Science in Computer Engineering",
+            "awarding_institution_name": "Universidade Estadual de Campinas (UNICAMP)",
+            "qualification_level": "Bachelor",
+            "specialization": "Computer Engineering",
+            "start_date": "2010-03-01",
+            "end_date": "2014-12-15",
+            "grade": "8.8/10",
+            "department": "Faculty of Electrical and Computer Engineering",
+            "faculty": "Engineering",
+            "batch": "2010-2014"
+          }
+        ],
+        "secondary": []
+      },
+      "publications": [
+        {
+          "title": "3D Object Detection for Autonomous Driving using Multi-Modal Fusion",
+          "authors": "Lucas F. Silva, et al.",
+          "publication": "CVPR 2024",
+          "date": "2024-06-18",
+          "url": "https://cvpr.thecvf.com/2024/silva-3d-detection"
+        },
+        {
+          "title": "Deep Learning for Medical Image Segmentation: A Comprehensive Survey",
+          "authors": "Lucas F. Silva, Maria Santos",
+          "publication": "Medical Image Analysis Journal",
+          "date": "2018-11-20",
+          "url": "https://doi.org/10.1016/j.media.2018.silva"
+        }
+      ],
+      "web_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/lucas-silva-cv"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/lucassilva"
+        },
+        {
+          "platform": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=lucassilva"
+        },
+        {
+          "platform": "Research Blog",
+          "url": "https://vision-research.lucassilva.dev"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Intermediate"
+        }
+      ],
+      "certifications": [
+        {
+          "certification_name": "Deep Learning Specialization",
+          "organization": "Coursera - DeepLearning.AI",
+          "credential_id": "DLSPEC-2017-LS-4567",
+          "issue_date": "2017-08-15",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Computer Vision Nanodegree",
+          "organization": "Udacity",
+          "credential_id": "ND-CV-2018-LS-8901",
+          "issue_date": "2018-03-20",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "TensorFlow Developer Certificate",
+          "organization": "Google",
+          "credential_id": "TF-DEV-2019-LS-2345",
+          "issue_date": "2019-11-10",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "NVIDIA Deep Learning Institute - Computer Vision",
+          "organization": "NVIDIA",
+          "credential_id": "NVIDIA-CV-2022-LS-6789",
+          "issue_date": "2022-06-25",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "PyTorch Scholarship Challenge",
+          "organization": "Udacity - Facebook",
+          "credential_id": "PYTORCH-2020-LS-1234",
+          "issue_date": "2020-02-14",
+          "expiration_date": null
+        },
+        {
+          "certification_name": "Advanced Computer Vision with TensorFlow",
+          "organization": "Coursera - DeepLearning.AI",
+          "credential_id": "ACVTF-2021-LS-5678",
+          "issue_date": "2021-09-08",
+          "expiration_date": null
+        }
+      ]
+    }
+  }
+]

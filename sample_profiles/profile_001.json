@@ -1,0 +1,441 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "011",
+      "email": "aisha.kumar@techmail.com",
+      "created_at": "2021-03-15T08:30:00.000000",
+      "updated_at": "2024-11-20T14:22:33.000000"
+    },
+    "profile": {
+      "profiles_id": "PF011",
+      "user_id": "011",
+      "first_name": "Aisha",
+      "middle_name": "Priya",
+      "last_name": "Kumar",
+      "about": "Senior AI/ML Engineer with 7 years of experience specializing in Large Language Models, RAG systems, and deep learning. Passionate about building scalable ML solutions and advancing NLP technologies. Published researcher with multiple papers on transformer architectures and prompt engineering.",
+      "email": "aisha.kumar@techmail.com",
+      "dob": "1989-06-12",
+      "phone": "+91-98765-43210",
+      "marital_status": "Married",
+      "gender": "Female",
+      "industry": "AI/ML",
+      "is_valid_resume": true,
+      "created_at": "2021-03-15T08:30:00.000000",
+      "updated_at": "2024-11-20T14:22:33.000000"
+    },
+    "contact": {
+      "address_line_1": "Apartment 402, Prestige Tech Park",
+      "address_line_2": "Whitefield",
+      "city": "Bangalore",
+      "postal_code": "560066",
+      "province": "Karnataka",
+      "country": "India",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 7,
+        "domain_breakdown": {
+          "AI/ML": 7,
+          "NLP": 5,
+          "Software Engineering": 7
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "DeepMind Technologies",
+          "organization_location": "Bangalore, India",
+          "organization_url": "https://deepmind.com",
+          "discipline": "Artificial Intelligence",
+          "role": "Senior ML Engineer",
+          "job_title": "Senior AI/ML Engineer",
+          "description": "• Led development of RAG-based systems for enterprise knowledge management, improving retrieval accuracy by 45%\n• Architected and deployed LLM fine-tuning pipelines using LoRA and QLoRA techniques\n• Implemented prompt engineering frameworks that reduced hallucination rates by 30%\n• Mentored team of 4 junior engineers on ML best practices and model optimization\n• Published 2 research papers on transformer architectures at NeurIPS and ICML",
+          "is_currently_working": true,
+          "start_date": "2022-01-10",
+          "end_date": null
+        },
+        {
+          "organization_name": "Amazon Web Services",
+          "organization_location": "Seattle, USA",
+          "organization_url": "https://aws.amazon.com",
+          "discipline": "Machine Learning",
+          "role": "ML Engineer",
+          "job_title": "Machine Learning Engineer",
+          "description": "• Developed NLP models for Amazon Comprehend, processing over 1M documents daily\n• Built custom BERT variants for domain-specific text classification tasks\n• Optimized model inference latency by 60% through quantization and pruning\n• Collaborated with product teams to integrate ML features into AWS services\n• Contributed to SageMaker feature development",
+          "is_currently_working": false,
+          "start_date": "2019-06-01",
+          "end_date": "2021-12-31"
+        },
+        {
+          "organization_name": "Microsoft Research",
+          "organization_location": "Hyderabad, India",
+          "organization_url": "https://microsoft.com/research",
+          "discipline": "Natural Language Processing",
+          "role": "Research Engineer",
+          "job_title": "NLP Research Engineer",
+          "description": "• Conducted research on multilingual transformer models for Indian languages\n• Developed sentiment analysis models achieving 92% accuracy on Hindi text\n• Created benchmark datasets for low-resource language tasks\n• Collaborated with academic partners on joint research initiatives\n• Presented findings at ACL and EMNLP conferences",
+          "is_currently_working": false,
+          "start_date": "2017-07-15",
+          "end_date": "2019-05-20"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 1,
+        "name": "Enterprise RAG System",
+        "description": "Built a production-grade Retrieval Augmented Generation system for enterprise knowledge base, integrating vector databases with LLMs for accurate information retrieval and generation.",
+        "relevant_industry": "AI/ML",
+        "is_currently_working": true,
+        "start_date": "2023-03-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 1,
+            "skill": "LangChain",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": "Framework for LLM application development"
+          },
+          {
+            "skill_id": 2,
+            "skill": "OpenAI GPT-4",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": "Large language model integration"
+          },
+          {
+            "skill_id": 3,
+            "skill": "Pinecone",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "Vector database for embeddings"
+          },
+          {
+            "skill_id": 4,
+            "skill": "Python",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 5,
+            "skill": "FastAPI",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 2,
+        "name": "LLM Fine-tuning Pipeline",
+        "description": "Developed automated pipeline for fine-tuning large language models using LoRA and QLoRA techniques, reducing training costs by 70% while maintaining performance.",
+        "relevant_industry": "AI/ML",
+        "is_currently_working": false,
+        "start_date": "2022-09-01",
+        "end_date": "2023-02-28",
+        "skills": [
+          {
+            "skill_id": 6,
+            "skill": "PyTorch",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": "Deep learning framework"
+          },
+          {
+            "skill_id": 7,
+            "skill": "HuggingFace Transformers",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 8,
+            "skill": "LoRA/QLoRA",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "Parameter-efficient fine-tuning"
+          },
+          {
+            "skill_id": 9,
+            "skill": "CUDA",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 3,
+        "name": "Multilingual NLP Platform",
+        "description": "Created NLP platform supporting 15+ Indian languages for sentiment analysis, named entity recognition, and text classification tasks.",
+        "relevant_industry": "NLP",
+        "is_currently_working": false,
+        "start_date": "2020-01-15",
+        "end_date": "2021-08-30",
+        "skills": [
+          {
+            "skill_id": 10,
+            "skill": "BERT",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 11,
+            "skill": "TensorFlow",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 12,
+            "skill": "spaCy",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 13,
+            "skill": "Docker",
+            "level_of_skill": "Advanced",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 4,
+        "name": "Prompt Engineering Framework",
+        "description": "Developed systematic framework for prompt engineering and evaluation, reducing hallucinations and improving response quality across multiple LLM applications.",
+        "relevant_industry": "AI/ML",
+        "is_currently_working": false,
+        "start_date": "2023-06-01",
+        "end_date": "2024-01-15",
+        "skills": [
+          {
+            "skill_id": 14,
+            "skill": "Prompt Engineering",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 15,
+            "skill": "LLM Evaluation",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 16,
+            "skill": "Python",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 5,
+        "name": "AutoML Platform for NLP",
+        "description": "Built automated machine learning platform specifically for NLP tasks, enabling non-experts to build and deploy text classification models.",
+        "relevant_industry": "AI/ML",
+        "is_currently_working": false,
+        "start_date": "2018-11-01",
+        "end_date": "2019-05-30",
+        "skills": [
+          {
+            "skill_id": 17,
+            "skill": "scikit-learn",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 18,
+            "skill": "AutoML",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 19,
+            "skill": "Flask",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 20,
+            "skill": "PostgreSQL",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Master of Science in Computer Science",
+          "awarding_institution_name": "Indian Institute of Technology Bombay",
+          "qualification_level": "Master",
+          "specialization": "Artificial Intelligence and Machine Learning",
+          "start_date": "2015-08-01",
+          "end_date": "2017-06-30",
+          "grade": "9.2/10 CGPA",
+          "department": "Computer Science and Engineering",
+          "faculty": "Engineering",
+          "batch": "2015-2017"
+        },
+        {
+          "awarding_name": "Bachelor of Technology in Computer Science",
+          "awarding_institution_name": "National Institute of Technology Karnataka",
+          "qualification_level": "Bachelor",
+          "specialization": "Computer Science and Engineering",
+          "start_date": "2011-08-01",
+          "end_date": "2015-05-31",
+          "grade": "8.9/10 CGPA",
+          "department": "Computer Science and Engineering",
+          "faculty": "Engineering",
+          "batch": "2011-2015"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [
+      {
+        "title": "Efficient Fine-tuning of Large Language Models using LoRA",
+        "authors": "Aisha Kumar, et al.",
+        "publication": "NeurIPS 2023",
+        "date": "2023-12-10",
+        "url": "https://proceedings.neurips.cc/paper/2023/kumar-lora"
+      },
+      {
+        "title": "Reducing Hallucinations in RAG Systems through Improved Retrieval",
+        "authors": "Aisha Kumar, John Smith",
+        "publication": "ICML 2024",
+        "date": "2024-07-20",
+        "url": "https://icml.cc/virtual/2024/poster/24567"
+      }
+    ],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/aisha-kumar-ml"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/aisha-kumar"
+      },
+      {
+        "platform": "Personal Website",
+        "url": "https://aishakumar.dev"
+      },
+      {
+        "platform": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=aishakumar"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Kannada",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Tamil",
+        "proficiency": null
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "AWS Certified Machine Learning - Specialty",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-MLS-2022-AK-7849",
+        "issue_date": "2022-03-15",
+        "expiration_date": "2025-03-15"
+      },
+      {
+        "certification_name": "Deep Learning Specialization",
+        "organization": "Coursera - DeepLearning.AI",
+        "credential_id": "DLSPEC-2019-7834",
+        "issue_date": "2019-02-20",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "TensorFlow Developer Certificate",
+        "organization": "Google",
+        "credential_id": "TF-DEV-2020-AK-9012",
+        "issue_date": "2020-08-10",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Natural Language Processing with Transformers",
+        "organization": "HuggingFace",
+        "credential_id": "HF-NLP-2021-5678",
+        "issue_date": "2021-11-05",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "LangChain for LLM Application Development",
+        "organization": "DeepLearning.AI",
+        "credential_id": "DLAI-LC-2023-4521",
+        "issue_date": "2023-04-18",
+        "expiration_date": null
+      }
+    ]
+  }
+}

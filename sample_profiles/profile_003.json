@@ -1,0 +1,471 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "013",
+      "email": "sarah.thompson@cloudops.uk",
+      "created_at": "2020-05-10T11:20:00.000000",
+      "updated_at": "2024-11-28T16:30:45.000000"
+    },
+    "profile": {
+      "profiles_id": "PF013",
+      "user_id": "013",
+      "first_name": "Sarah",
+      "middle_name": "Elizabeth",
+      "last_name": "Thompson",
+      "about": "Senior DevOps Engineer with 8 years of experience specializing in Kubernetes orchestration, CI/CD automation, and infrastructure as code. Expert in building reliable, scalable cloud infrastructure and implementing DevOps best practices. Passionate about improving developer productivity and system reliability.",
+      "email": "sarah.thompson@cloudops.uk",
+      "dob": "1987-11-08",
+      "phone": "+44-20-7946-0958",
+      "marital_status": "Married",
+      "gender": "Female",
+      "industry": "DevOps",
+      "is_valid_resume": true,
+      "created_at": "2020-05-10T11:20:00.000000",
+      "updated_at": "2024-11-28T16:30:45.000000"
+    },
+    "contact": {
+      "address_line_1": "42 Kensington Gardens Square",
+      "address_line_2": "Flat 3A",
+      "city": "London",
+      "postal_code": "W2 4BQ",
+      "province": "Greater London",
+      "country": "United Kingdom",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 8,
+        "domain_breakdown": {
+          "DevOps": 8,
+          "Cloud Engineering": 8,
+          "System Administration": 5
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Spotify",
+          "organization_location": "London, UK",
+          "organization_url": "https://spotify.com",
+          "discipline": "DevOps Engineering",
+          "role": "Senior DevOps Engineer",
+          "job_title": "Senior DevOps Engineer",
+          "description": "• Leading infrastructure modernization initiative migrating 200+ services to Kubernetes\n• Architected multi-region disaster recovery system achieving 99.99% uptime SLA\n• Implemented GitOps practices using ArgoCD and Flux, reducing deployment errors by 60%\n• Built comprehensive observability stack using Prometheus, Grafana, and ELK\n• Mentoring team of 5 DevOps engineers on cloud-native technologies\n• Reduced infrastructure costs by 40% through resource optimization and autoscaling",
+          "is_currently_working": true,
+          "start_date": "2021-09-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Revolut",
+          "organization_location": "London, UK",
+          "organization_url": "https://revolut.com",
+          "discipline": "DevOps Engineering",
+          "role": "DevOps Engineer",
+          "job_title": "DevOps Engineer",
+          "description": "• Managed AWS infrastructure supporting 15M+ users across multiple regions\n• Developed CI/CD pipelines using Jenkins and GitLab CI for 100+ microservices\n• Implemented infrastructure as code using Terraform and CloudFormation\n• Created automated security scanning and compliance checking in deployment pipelines\n• Optimized database performance and implemented automated backup strategies\n• Participated in 24/7 on-call rotation for production support",
+          "is_currently_working": false,
+          "start_date": "2019-03-15",
+          "end_date": "2021-08-20"
+        },
+        {
+          "organization_name": "Deliveroo",
+          "organization_location": "London, UK",
+          "organization_url": "https://deliveroo.com",
+          "discipline": "Site Reliability Engineering",
+          "role": "Site Reliability Engineer",
+          "job_title": "Site Reliability Engineer",
+          "description": "• Built monitoring and alerting systems reducing MTTR by 50%\n• Automated incident response procedures using Python and Bash scripts\n• Managed containerized applications using Docker and Docker Compose\n• Implemented log aggregation and analysis using ELK stack\n• Conducted performance testing and capacity planning\n• Improved deployment frequency from weekly to daily releases",
+          "is_currently_working": false,
+          "start_date": "2017-01-10",
+          "end_date": "2019-03-01"
+        },
+        {
+          "organization_name": "Marks & Spencer Digital",
+          "organization_location": "London, UK",
+          "organization_url": "https://marksandspencer.com",
+          "discipline": "System Administration",
+          "role": "Linux System Administrator",
+          "job_title": "Linux System Administrator",
+          "description": "• Managed 200+ Linux servers supporting e-commerce platform\n• Automated system provisioning and configuration using Ansible\n• Implemented backup and disaster recovery procedures\n• Performed security hardening and patch management\n• Provided technical support for application deployment\n• Documented system architecture and operational procedures",
+          "is_currently_working": false,
+          "start_date": "2016-06-01",
+          "end_date": "2016-12-31"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 11,
+        "name": "Multi-Region Kubernetes Platform",
+        "description": "Designed and implemented enterprise-grade Kubernetes platform spanning 5 AWS regions with automated failover, supporting 200+ microservices.",
+        "relevant_industry": "Cloud Infrastructure",
+        "is_currently_working": true,
+        "start_date": "2022-06-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 43,
+            "skill": "Kubernetes",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": "Container orchestration platform"
+          },
+          {
+            "skill_id": 44,
+            "skill": "AWS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 45,
+            "skill": "Terraform",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 46,
+            "skill": "Helm",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 47,
+            "skill": "ArgoCD",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "GitOps continuous delivery"
+          },
+          {
+            "skill_id": 48,
+            "skill": "Istio",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Service mesh"
+          }
+        ]
+      },
+      {
+        "project_id": 12,
+        "name": "Observability Platform Implementation",
+        "description": "Built comprehensive observability solution with metrics, logging, and tracing for distributed microservices architecture.",
+        "relevant_industry": "DevOps",
+        "is_currently_working": false,
+        "start_date": "2021-10-01",
+        "end_date": "2022-05-31",
+        "skills": [
+          {
+            "skill_id": 49,
+            "skill": "Prometheus",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 50,
+            "skill": "Grafana",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 51,
+            "skill": "ELK Stack",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "Elasticsearch, Logstash, Kibana"
+          },
+          {
+            "skill_id": 52,
+            "skill": "Jaeger",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Distributed tracing"
+          }
+        ]
+      },
+      {
+        "project_id": 13,
+        "name": "CI/CD Pipeline Modernization",
+        "description": "Redesigned CI/CD pipelines for 100+ microservices, implementing security scanning, automated testing, and progressive delivery.",
+        "relevant_industry": "DevOps",
+        "is_currently_working": false,
+        "start_date": "2020-02-01",
+        "end_date": "2020-12-31",
+        "skills": [
+          {
+            "skill_id": 53,
+            "skill": "GitLab CI",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 54,
+            "skill": "Jenkins",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 55,
+            "skill": "Docker",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 56,
+            "skill": "SonarQube",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Code quality analysis"
+          }
+        ]
+      },
+      {
+        "project_id": 14,
+        "name": "Infrastructure as Code Framework",
+        "description": "Created standardized IaC framework using Terraform modules for consistent infrastructure provisioning across teams.",
+        "relevant_industry": "Cloud Infrastructure",
+        "is_currently_working": false,
+        "start_date": "2019-06-01",
+        "end_date": "2020-01-31",
+        "skills": [
+          {
+            "skill_id": 57,
+            "skill": "Terraform",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 58,
+            "skill": "AWS CloudFormation",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 59,
+            "skill": "Python",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 15,
+        "name": "Automated Security Compliance",
+        "description": "Implemented automated security scanning and compliance checking for infrastructure and applications meeting SOC 2 requirements.",
+        "relevant_industry": "Security",
+        "is_currently_working": false,
+        "start_date": "2018-09-01",
+        "end_date": "2019-05-31",
+        "skills": [
+          {
+            "skill_id": 60,
+            "skill": "Vault",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": "Secrets management"
+          },
+          {
+            "skill_id": 61,
+            "skill": "Trivy",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Vulnerability scanner"
+          },
+          {
+            "skill_id": 62,
+            "skill": "AWS IAM",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 16,
+        "name": "Disaster Recovery Automation",
+        "description": "Developed automated disaster recovery procedures with regular testing, achieving RTO of 15 minutes and RPO of 5 minutes.",
+        "relevant_industry": "Cloud Infrastructure",
+        "is_currently_working": false,
+        "start_date": "2023-02-01",
+        "end_date": "2023-09-30",
+        "skills": [
+          {
+            "skill_id": 63,
+            "skill": "AWS",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 64,
+            "skill": "Bash Scripting",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 65,
+            "skill": "Ansible",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Master of Science in Computer Science",
+          "awarding_institution_name": "Imperial College London",
+          "qualification_level": "Master",
+          "specialization": "Distributed Systems",
+          "start_date": "2014-09-01",
+          "end_date": "2015-09-30",
+          "grade": "Distinction",
+          "department": "Department of Computing",
+          "faculty": "Faculty of Engineering",
+          "batch": "2014-2015"
+        },
+        {
+          "awarding_name": "Bachelor of Engineering in Computer Science",
+          "awarding_institution_name": "University of Manchester",
+          "qualification_level": "Bachelor",
+          "specialization": "Computer Science and Engineering",
+          "start_date": "2010-09-01",
+          "end_date": "2014-06-30",
+          "grade": "First Class Honours",
+          "department": "School of Computer Science",
+          "faculty": "Faculty of Science and Engineering",
+          "batch": "2010-2014"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/sarah-thompson-devops"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/sarahthompson"
+      },
+      {
+        "platform": "Personal Blog",
+        "url": "https://devops-insights.sarahthompson.tech"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "French",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "Certified Kubernetes Administrator (CKA)",
+        "organization": "Cloud Native Computing Foundation",
+        "credential_id": "CKA-2021-ST-9876",
+        "issue_date": "2021-05-20",
+        "expiration_date": "2024-05-20"
+      },
+      {
+        "certification_name": "Certified Kubernetes Security Specialist (CKS)",
+        "organization": "Cloud Native Computing Foundation",
+        "credential_id": "CKS-2022-ST-4532",
+        "issue_date": "2022-08-15",
+        "expiration_date": "2025-08-15"
+      },
+      {
+        "certification_name": "AWS Certified Solutions Architect - Professional",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-SAP-2020-ST-7821",
+        "issue_date": "2020-11-10",
+        "expiration_date": "2023-11-10"
+      },
+      {
+        "certification_name": "AWS Certified DevOps Engineer - Professional",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-DOP-2021-ST-3456",
+        "issue_date": "2021-03-22",
+        "expiration_date": "2024-03-22"
+      },
+      {
+        "certification_name": "HashiCorp Certified: Terraform Associate",
+        "organization": "HashiCorp",
+        "credential_id": "HC-TF-2020-ST-8901",
+        "issue_date": "2020-07-18",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Linux Foundation Certified Engineer (LFCE)",
+        "organization": "Linux Foundation",
+        "credential_id": "LFCE-2019-ST-2341",
+        "issue_date": "2019-09-05",
+        "expiration_date": null
+      }
+    ]
+  }
+}
