@@ -1,0 +1,627 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "019",
+      "email": "lucas.silva@vision.br",
+      "created_at": "2020-07-18T10:30:00.000000",
+      "updated_at": "2024-12-11T12:45:18.000000"
+    },
+    "profile": {
+      "profiles_id": "PF019",
+      "user_id": "019",
+      "first_name": "Lucas",
+      "middle_name": "Fernando",
+      "last_name": "Silva",
+      "about": "Senior Computer Vision Engineer with 7 years of experience in deep learning, object detection, and image segmentation. Specialized in building production-grade computer vision systems for autonomous vehicles, medical imaging, and retail analytics. Expert in PyTorch, OpenCV, and deploying models at scale.",
+      "email": "lucas.silva@vision.br",
+      "dob": "1988-05-20",
+      "phone": "+55-11-98765-4321",
+      "marital_status": "Married",
+      "gender": "Male",
+      "industry": "Computer Vision",
+      "is_valid_resume": true,
+      "created_at": "2020-07-18T10:30:00.000000",
+      "updated_at": "2024-12-11T12:45:18.000000"
+    },
+    "contact": {
+      "address_line_1": "Avenida Paulista 1578, Apt 2205",
+      "address_line_2": "Bela Vista",
+      "city": "São Paulo",
+      "postal_code": "01310-200",
+      "province": "São Paulo",
+      "country": "Brazil",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 7,
+        "domain_breakdown": {
+          "Computer Vision": 7,
+          "Deep Learning": 7,
+          "Machine Learning": 6
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "NVIDIA",
+          "organization_location": "São Paulo, Brazil",
+          "organization_url": "https://nvidia.com",
+          "discipline": "Computer Vision Engineering",
+          "role": "Senior Computer Vision Engineer",
+          "job_title": "Senior Computer Vision Engineer",
+          "description": "• Developing computer vision solutions for autonomous vehicle perception systems\n• Built object detection models using YOLO and Faster R-CNN achieving 95%+ accuracy\n• Implemented real-time semantic segmentation for lane detection and road scene understanding\n• Optimized deep learning models for edge deployment on Jetson platform\n• Leading team of 4 CV engineers on perception pipeline development\n• Published research on 3D object detection at CVPR conference\n• Collaborating with automotive partners on autonomous driving technology",
+          "is_currently_working": true,
+          "start_date": "2022-03-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Nubank",
+          "organization_location": "São Paulo, Brazil",
+          "organization_url": "https://nubank.com.br",
+          "discipline": "Machine Learning Engineering",
+          "role": "Computer Vision Engineer",
+          "job_title": "Computer Vision ML Engineer",
+          "description": "• Developed document verification system using OCR and deep learning for KYC process\n• Built face recognition system for biometric authentication with 99.5% accuracy\n• Implemented liveness detection to prevent spoofing attacks\n• Created data annotation pipelines and quality assurance processes\n• Reduced document verification time from 2 days to 2 minutes\n• Deployed models to production serving 70M+ users",
+          "is_currently_working": false,
+          "start_date": "2020-01-15",
+          "end_date": "2022-02-20"
+        },
+        {
+          "organization_name": "iFood",
+          "organization_location": "São Paulo, Brazil",
+          "organization_url": "https://ifood.com.br",
+          "discipline": "Computer Vision",
+          "role": "Computer Vision Engineer",
+          "job_title": "Computer Vision Engineer",
+          "description": "• Built food recognition system for automated menu digitization\n• Developed quality control system for restaurant food images\n• Implemented image similarity search for recipe recommendations\n• Created automated image tagging and categorization pipeline\n• Worked with large-scale image datasets (10M+ images)\n• Improved menu creation efficiency by 70% through automation",
+          "is_currently_working": false,
+          "start_date": "2018-06-01",
+          "end_date": "2019-12-31"
+        },
+        {
+          "organization_name": "Universidade de São Paulo (USP)",
+          "organization_location": "São Paulo, Brazil",
+          "organization_url": "https://usp.br",
+          "discipline": "Research",
+          "role": "Research Assistant",
+          "job_title": "Computer Vision Research Assistant",
+          "description": "• Conducted research on medical image analysis for cancer detection\n• Developed deep learning models for histopathology image classification\n• Implemented image segmentation algorithms for tumor boundary detection\n• Published research papers in medical imaging conferences\n• Collaborated with hospital partners on clinical validation\n• Taught undergraduate courses on computer vision fundamentals",
+          "is_currently_working": false,
+          "start_date": "2017-03-01",
+          "end_date": "2018-05-31"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 47,
+        "name": "Autonomous Vehicle Perception System",
+        "description": "Built end-to-end perception pipeline for self-driving cars including object detection, tracking, and semantic segmentation.",
+        "relevant_industry": "Autonomous Vehicles",
+        "is_currently_working": true,
+        "start_date": "2022-09-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 191,
+            "skill": "PyTorch",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 192,
+            "skill": "YOLO",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": "Object detection"
+          },
+          {
+            "skill_id": 193,
+            "skill": "Semantic Segmentation",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 194,
+            "skill": "3D Object Detection",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 195,
+            "skill": "Point Cloud Processing",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 196,
+            "skill": "CUDA",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 48,
+        "name": "Document Verification System",
+        "description": "Developed AI-powered document verification system using OCR and deep learning for automated KYC processing.",
+        "relevant_industry": "FinTech",
+        "is_currently_working": false,
+        "start_date": "2020-06-01",
+        "end_date": "2021-12-31",
+        "skills": [
+          {
+            "skill_id": 197,
+            "skill": "OCR",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "Optical Character Recognition"
+          },
+          {
+            "skill_id": 198,
+            "skill": "Tesseract",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 199,
+            "skill": "Document Analysis",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 200,
+            "skill": "OpenCV",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 201,
+            "skill": "Python",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 49,
+        "name": "Face Recognition & Liveness Detection",
+        "description": "Built biometric authentication system with face recognition and anti-spoofing capabilities for mobile banking app.",
+        "relevant_industry": "Security",
+        "is_currently_working": false,
+        "start_date": "2021-01-15",
+        "end_date": "2022-02-28",
+        "skills": [
+          {
+            "skill_id": 202,
+            "skill": "Face Recognition",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 203,
+            "skill": "FaceNet",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 204,
+            "skill": "Liveness Detection",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 205,
+            "skill": "Dlib",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 50,
+        "name": "Food Recognition System",
+        "description": "Created deep learning model for automated food recognition and classification supporting 500+ dish categories.",
+        "relevant_industry": "Food Tech",
+        "is_currently_working": false,
+        "start_date": "2018-08-01",
+        "end_date": "2019-11-30",
+        "skills": [
+          {
+            "skill_id": 206,
+            "skill": "Image Classification",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 207,
+            "skill": "ResNet",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 208,
+            "skill": "Transfer Learning",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 209,
+            "skill": "Data Augmentation",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 51,
+        "name": "Medical Image Segmentation",
+        "description": "Developed deep learning models for tumor segmentation in histopathology images for cancer diagnosis.",
+        "relevant_industry": "Healthcare",
+        "is_currently_working": false,
+        "start_date": "2017-06-01",
+        "end_date": "2018-05-31",
+        "skills": [
+          {
+            "skill_id": 210,
+            "skill": "U-Net",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": "Image segmentation architecture"
+          },
+          {
+            "skill_id": 211,
+            "skill": "Medical Imaging",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 212,
+            "skill": "Image Segmentation",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 213,
+            "skill": "TensorFlow",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 52,
+        "name": "Real-time Object Tracking",
+        "description": "Implemented multi-object tracking system for surveillance and retail analytics using deep SORT algorithm.",
+        "relevant_industry": "Retail Analytics",
+        "is_currently_working": false,
+        "start_date": "2019-03-01",
+        "end_date": "2019-12-31",
+        "skills": [
+          {
+            "skill_id": 214,
+            "skill": "Object Tracking",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 215,
+            "skill": "DeepSORT",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 216,
+            "skill": "OpenCV",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 217,
+            "skill": "Video Processing",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 53,
+        "name": "Edge AI Deployment",
+        "description": "Optimized and deployed computer vision models on edge devices (Jetson, Raspberry Pi) for real-time inference.",
+        "relevant_industry": "Edge Computing",
+        "is_currently_working": false,
+        "start_date": "2023-01-01",
+        "end_date": "2023-08-31",
+        "skills": [
+          {
+            "skill_id": 218,
+            "skill": "TensorRT",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": "NVIDIA inference optimizer"
+          },
+          {
+            "skill_id": 219,
+            "skill": "ONNX",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Model interchange format"
+          },
+          {
+            "skill_id": 220,
+            "skill": "Model Optimization",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 221,
+            "skill": "Quantization",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 54,
+        "name": "Image Quality Enhancement",
+        "description": "Built image super-resolution and denoising models using GANs for improving low-quality images.",
+        "relevant_industry": "Computer Vision",
+        "is_currently_working": false,
+        "start_date": "2020-03-01",
+        "end_date": "2020-09-30",
+        "skills": [
+          {
+            "skill_id": 222,
+            "skill": "GANs",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": "Generative Adversarial Networks"
+          },
+          {
+            "skill_id": 223,
+            "skill": "Super Resolution",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 224,
+            "skill": "Image Enhancement",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Doctor of Philosophy (PhD) in Computer Science",
+          "awarding_institution_name": "Universidade de São Paulo (USP)",
+          "qualification_level": "PhD",
+          "specialization": "Computer Vision and Deep Learning",
+          "start_date": "2019-03-01",
+          "end_date": "2023-12-15",
+          "grade": null,
+          "department": "Institute of Mathematics and Statistics",
+          "faculty": "Science",
+          "batch": "2019-2023"
+        },
+        {
+          "awarding_name": "Master of Science in Computer Science",
+          "awarding_institution_name": "Universidade de São Paulo (USP)",
+          "qualification_level": "Master",
+          "specialization": "Artificial Intelligence",
+          "start_date": "2015-03-01",
+          "end_date": "2017-02-28",
+          "grade": "9.2/10",
+          "department": "Institute of Mathematics and Statistics",
+          "faculty": "Science",
+          "batch": "2015-2017"
+        },
+        {
+          "awarding_name": "Bachelor of Science in Computer Engineering",
+          "awarding_institution_name": "Universidade Estadual de Campinas (UNICAMP)",
+          "qualification_level": "Bachelor",
+          "specialization": "Computer Engineering",
+          "start_date": "2010-03-01",
+          "end_date": "2014-12-15",
+          "grade": "8.8/10",
+          "department": "Faculty of Electrical and Computer Engineering",
+          "faculty": "Engineering",
+          "batch": "2010-2014"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [
+      {
+        "title": "3D Object Detection for Autonomous Driving using Multi-Modal Fusion",
+        "authors": "Lucas F. Silva, et al.",
+        "publication": "CVPR 2024",
+        "date": "2024-06-18",
+        "url": "https://cvpr.thecvf.com/2024/silva-3d-detection"
+      },
+      {
+        "title": "Deep Learning for Medical Image Segmentation: A Comprehensive Survey",
+        "authors": "Lucas F. Silva, Maria Santos",
+        "publication": "Medical Image Analysis Journal",
+        "date": "2018-11-20",
+        "url": "https://doi.org/10.1016/j.media.2018.silva"
+      }
+    ],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/lucas-silva-cv"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/lucassilva"
+      },
+      {
+        "platform": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=lucassilva"
+      },
+      {
+        "platform": "Research Blog",
+        "url": "https://vision-research.lucassilva.dev"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Portuguese",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "Deep Learning Specialization",
+        "organization": "Coursera - DeepLearning.AI",
+        "credential_id": "DLSPEC-2017-LS-4567",
+        "issue_date": "2017-08-15",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Computer Vision Nanodegree",
+        "organization": "Udacity",
+        "credential_id": "ND-CV-2018-LS-8901",
+        "issue_date": "2018-03-20",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "TensorFlow Developer Certificate",
+        "organization": "Google",
+        "credential_id": "TF-DEV-2019-LS-2345",
+        "issue_date": "2019-11-10",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "NVIDIA Deep Learning Institute - Computer Vision",
+        "organization": "NVIDIA",
+        "credential_id": "NVIDIA-CV-2022-LS-6789",
+        "issue_date": "2022-06-25",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "PyTorch Scholarship Challenge",
+        "organization": "Udacity - Facebook",
+        "credential_id": "PYTORCH-2020-LS-1234",
+        "issue_date": "2020-02-14",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Advanced Computer Vision with TensorFlow",
+        "organization": "Coursera - DeepLearning.AI",
+        "credential_id": "ACVTF-2021-LS-5678",
+        "issue_date": "2021-09-08",
+        "expiration_date": null
+      }
+    ]
+  }
+}

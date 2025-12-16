@@ -1,0 +1,449 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "018",
+      "email": "emily.watson@backend.au",
+      "created_at": "2020-10-08T12:00:00.000000",
+      "updated_at": "2024-12-03T14:30:25.000000"
+    },
+    "profile": {
+      "profiles_id": "PF018",
+      "user_id": "018",
+      "first_name": "Emily",
+      "middle_name": "Grace",
+      "last_name": "Watson",
+      "about": "Mid-level Backend Engineer with 6 years of experience building scalable microservices and distributed systems. Specialized in Go, Node.js, and event-driven architectures. Passionate about performance optimization, clean architecture, and building resilient backend systems.",
+      "email": "emily.watson@backend.au",
+      "dob": "1991-12-05",
+      "phone": "+61-2-5555-3456",
+      "marital_status": "Single",
+      "gender": "Female",
+      "industry": "Backend Engineering",
+      "is_valid_resume": true,
+      "created_at": "2020-10-08T12:00:00.000000",
+      "updated_at": "2024-12-03T14:30:25.000000"
+    },
+    "contact": {
+      "address_line_1": "152 Elizabeth Street, Apartment 1807",
+      "address_line_2": null,
+      "city": "Sydney",
+      "postal_code": "2000",
+      "province": "New South Wales",
+      "country": "Australia",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 6,
+        "domain_breakdown": {
+          "Backend Engineering": 6,
+          "Microservices": 5,
+          "Distributed Systems": 4
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Atlassian",
+          "organization_location": "Sydney, Australia",
+          "organization_url": "https://atlassian.com",
+          "discipline": "Backend Engineering",
+          "role": "Senior Backend Engineer",
+          "job_title": "Senior Backend Engineer",
+          "description": "• Building microservices for Jira and Confluence using Go and Node.js, serving 200k+ organizations\n• Architecting event-driven systems using Kafka for real-time data processing\n• Implementing GraphQL APIs for improved client-server communication\n• Optimized database queries reducing API latency by 45%\n• Leading technical design discussions and code reviews\n• Mentoring 3 junior engineers on backend development best practices\n• Participating in on-call rotation for production support",
+          "is_currently_working": true,
+          "start_date": "2022-07-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Canva",
+          "organization_location": "Sydney, Australia",
+          "organization_url": "https://canva.com",
+          "discipline": "Backend Development",
+          "role": "Backend Engineer",
+          "job_title": "Backend Software Engineer",
+          "description": "• Developed RESTful APIs using Node.js and Express for design platform with 100M+ users\n• Built microservices handling image processing and rendering workflows\n• Implemented caching strategies using Redis improving response times by 60%\n• Designed and deployed asynchronous job processing system using RabbitMQ\n• Collaborated with frontend teams on API design and integration\n• Wrote comprehensive unit and integration tests achieving 90% coverage",
+          "is_currently_working": false,
+          "start_date": "2020-03-15",
+          "end_date": "2022-06-20"
+        },
+        {
+          "organization_name": "REA Group",
+          "organization_location": "Melbourne, Australia",
+          "organization_url": "https://rea-group.com",
+          "discipline": "Software Development",
+          "role": "Software Engineer",
+          "job_title": "Software Engineer - Backend",
+          "description": "• Built backend services for real estate platform realestate.com.au\n• Developed search and filtering APIs using Elasticsearch\n• Implemented authentication and authorization using OAuth 2.0\n• Created automated testing pipelines using Jest and Mocha\n• Worked with MySQL and PostgreSQL databases\n• Participated in agile ceremonies and sprint planning",
+          "is_currently_working": false,
+          "start_date": "2018-08-01",
+          "end_date": "2020-03-01"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 41,
+        "name": "Event-Driven Microservices Platform",
+        "description": "Built scalable event-driven architecture using Kafka and Go microservices, processing 1M+ events daily.",
+        "relevant_industry": "Backend Engineering",
+        "is_currently_working": true,
+        "start_date": "2023-02-01",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 167,
+            "skill": "Go",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 168,
+            "skill": "Apache Kafka",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 169,
+            "skill": "Event-Driven Architecture",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 170,
+            "skill": "PostgreSQL",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 171,
+            "skill": "Docker",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 42,
+        "name": "GraphQL API Gateway",
+        "description": "Designed and implemented GraphQL gateway aggregating data from 20+ microservices for unified API interface.",
+        "relevant_industry": "API Development",
+        "is_currently_working": false,
+        "start_date": "2022-09-01",
+        "end_date": "2023-05-31",
+        "skills": [
+          {
+            "skill_id": 172,
+            "skill": "GraphQL",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 173,
+            "skill": "Node.js",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 8,
+            "final_rating": 8.5,
+            "description": null
+          },
+          {
+            "skill_id": 174,
+            "skill": "Apollo Server",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 175,
+            "skill": "TypeScript",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 43,
+        "name": "Image Processing Service",
+        "description": "Built high-performance image processing microservice handling 500k+ images daily with automatic optimization and resizing.",
+        "relevant_industry": "Backend Engineering",
+        "is_currently_working": false,
+        "start_date": "2021-01-15",
+        "end_date": "2021-11-30",
+        "skills": [
+          {
+            "skill_id": 176,
+            "skill": "Node.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 177,
+            "skill": "Sharp",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Image processing library"
+          },
+          {
+            "skill_id": 178,
+            "skill": "AWS S3",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 179,
+            "skill": "RabbitMQ",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 44,
+        "name": "Real Estate Search API",
+        "description": "Developed sophisticated search and filtering API using Elasticsearch, supporting 2M+ property listings.",
+        "relevant_industry": "Real Estate Tech",
+        "is_currently_working": false,
+        "start_date": "2019-03-01",
+        "end_date": "2020-02-28",
+        "skills": [
+          {
+            "skill_id": 180,
+            "skill": "Elasticsearch",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 181,
+            "skill": "Node.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 182,
+            "skill": "Express.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 183,
+            "skill": "MySQL",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 45,
+        "name": "Distributed Caching System",
+        "description": "Implemented distributed caching layer using Redis Cluster, reducing database load by 70% and improving API response times.",
+        "relevant_industry": "Backend Engineering",
+        "is_currently_working": false,
+        "start_date": "2020-06-01",
+        "end_date": "2020-12-31",
+        "skills": [
+          {
+            "skill_id": 184,
+            "skill": "Redis",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 185,
+            "skill": "Redis Cluster",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 186,
+            "skill": "Caching Strategies",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 46,
+        "name": "Authentication & Authorization Service",
+        "description": "Built centralized authentication service using OAuth 2.0 and JWT, serving 50+ microservices.",
+        "relevant_industry": "Security",
+        "is_currently_working": false,
+        "start_date": "2021-05-01",
+        "end_date": "2022-01-31",
+        "skills": [
+          {
+            "skill_id": 187,
+            "skill": "OAuth 2.0",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 188,
+            "skill": "JWT",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 189,
+            "skill": "Node.js",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 190,
+            "skill": "PostgreSQL",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Bachelor of Computer Science",
+          "awarding_institution_name": "University of New South Wales",
+          "qualification_level": "Bachelor",
+          "specialization": "Software Engineering",
+          "start_date": "2014-02-01",
+          "end_date": "2017-11-30",
+          "grade": "Distinction (6.5/7.0 GPA)",
+          "department": "School of Computer Science and Engineering",
+          "faculty": "Engineering",
+          "batch": "2014-2017"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/emily-watson-backend"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/emilywatson"
+      },
+      {
+        "platform": "Dev.to",
+        "url": "https://dev.to/emilywatson"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native"
+      },
+      {
+        "language": "Japanese",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "AWS Certified Developer - Associate",
+        "organization": "Amazon Web Services",
+        "credential_id": "AWS-DEV-2021-EW-7890",
+        "issue_date": "2021-04-18",
+        "expiration_date": "2024-04-18"
+      },
+      {
+        "certification_name": "MongoDB Certified Developer",
+        "organization": "MongoDB University",
+        "credential_id": "MONGO-DEV-2020-EW-4567",
+        "issue_date": "2020-09-22",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Microservices Architecture",
+        "organization": "Coursera - University of Alberta",
+        "credential_id": "MSA-2022-EW-1234",
+        "issue_date": "2022-03-15",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Go Programming Complete Guide",
+        "organization": "Udemy",
+        "credential_id": "UC-GO-2023-EW-8901",
+        "issue_date": "2023-01-10",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Apache Kafka Fundamentals",
+        "organization": "Confluent",
+        "credential_id": "KAFKA-2023-EW-5678",
+        "issue_date": "2023-06-05",
+        "expiration_date": null
+      }
+    ]
+  }
+}

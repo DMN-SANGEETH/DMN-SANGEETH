@@ -1,0 +1,465 @@
+{
+  "success": true,
+  "message": "Profile retrieved",
+  "data": {
+    "user": {
+      "user_id": "014",
+      "email": "kenji.tanaka@datascience.jp",
+      "created_at": "2021-08-05T09:00:00.000000",
+      "updated_at": "2024-12-05T11:15:30.000000"
+    },
+    "profile": {
+      "profiles_id": "PF014",
+      "user_id": "014",
+      "first_name": "Kenji",
+      "middle_name": null,
+      "last_name": "Tanaka",
+      "about": "Mid-level Data Scientist with 5 years of experience in machine learning, predictive analytics, and data-driven decision making. Specialized in building end-to-end ML pipelines and deploying models at scale. Strong background in statistical analysis and business intelligence.",
+      "email": "kenji.tanaka@datascience.jp",
+      "dob": "1992-03-18",
+      "phone": "+81-3-5555-1234",
+      "marital_status": null,
+      "gender": "Male",
+      "industry": "Data Science",
+      "is_valid_resume": true,
+      "created_at": "2021-08-05T09:00:00.000000",
+      "updated_at": "2024-12-05T11:15:30.000000"
+    },
+    "contact": {
+      "address_line_1": "3-15-7 Shibuya",
+      "address_line_2": "Mansion Heights 801",
+      "city": "Tokyo",
+      "postal_code": "150-0002",
+      "province": "Tokyo",
+      "country": "Japan",
+      "is_current_address": true
+    },
+    "experience": {
+      "summary": {
+        "total_years": 5,
+        "domain_breakdown": {
+          "Data Science": 5,
+          "Machine Learning": 5,
+          "Analytics": 4
+        }
+      },
+      "experiences": [
+        {
+          "organization_name": "Rakuten Group",
+          "organization_location": "Tokyo, Japan",
+          "organization_url": "https://rakuten.com",
+          "discipline": "Data Science",
+          "role": "Senior Data Scientist",
+          "job_title": "Senior Data Scientist",
+          "description": "• Developing recommendation systems serving 100M+ users using collaborative filtering and deep learning\n• Built customer churn prediction models achieving 85% accuracy, reducing churn by 15%\n• Leading A/B testing framework implementation for data-driven product decisions\n• Mentoring 3 junior data scientists on ML best practices and model development\n• Collaborated with engineering teams to deploy models to production using MLOps practices\n• Published internal research on personalization algorithms",
+          "is_currently_working": true,
+          "start_date": "2022-04-01",
+          "end_date": null
+        },
+        {
+          "organization_name": "Sony Corporation",
+          "organization_location": "Tokyo, Japan",
+          "organization_url": "https://sony.com",
+          "discipline": "Data Analytics",
+          "role": "Data Scientist",
+          "job_title": "Data Scientist",
+          "description": "• Analyzed user behavior data from PlayStation Network with 100M+ active users\n• Developed predictive models for game purchase patterns and user engagement\n• Created automated reporting dashboards using Tableau and Power BI\n• Implemented time series forecasting for revenue prediction with 92% accuracy\n• Collaborated with product teams to optimize in-game monetization strategies\n• Reduced data processing time by 60% through pipeline optimization",
+          "is_currently_working": false,
+          "start_date": "2020-06-15",
+          "end_date": "2022-03-20"
+        },
+        {
+          "organization_name": "LINE Corporation",
+          "organization_location": "Tokyo, Japan",
+          "organization_url": "https://linecorp.com",
+          "discipline": "Data Analytics",
+          "role": "Junior Data Analyst",
+          "job_title": "Junior Data Analyst",
+          "description": "• Performed exploratory data analysis on messaging app usage patterns\n• Built SQL queries and ETL pipelines for data extraction and transformation\n• Created visualization dashboards for business stakeholders\n• Assisted in A/B testing analysis for new features\n• Documented data analysis processes and best practices\n• Supported senior data scientists with data preparation and cleaning",
+          "is_currently_working": false,
+          "start_date": "2019-07-01",
+          "end_date": "2020-06-10"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_id": 17,
+        "name": "E-commerce Recommendation Engine",
+        "description": "Built sophisticated recommendation system using collaborative filtering and neural networks, increasing conversion rate by 25%.",
+        "relevant_industry": "E-commerce",
+        "is_currently_working": true,
+        "start_date": "2023-01-15",
+        "end_date": null,
+        "skills": [
+          {
+            "skill_id": 66,
+            "skill": "Python",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          },
+          {
+            "skill_id": 67,
+            "skill": "TensorFlow",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 68,
+            "skill": "Collaborative Filtering",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 69,
+            "skill": "Apache Spark",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 70,
+            "skill": "Scikit-learn",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 18,
+        "name": "Customer Churn Prediction System",
+        "description": "Developed machine learning model to predict customer churn with 85% accuracy, enabling proactive retention strategies.",
+        "relevant_industry": "Data Science",
+        "is_currently_working": false,
+        "start_date": "2022-06-01",
+        "end_date": "2022-12-31",
+        "skills": [
+          {
+            "skill_id": 71,
+            "skill": "XGBoost",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 72,
+            "skill": "Random Forest",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 73,
+            "skill": "Feature Engineering",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 74,
+            "skill": "Pandas",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 19,
+        "name": "Time Series Forecasting Platform",
+        "description": "Created automated forecasting system for revenue and demand prediction using ARIMA and Prophet models.",
+        "relevant_industry": "Analytics",
+        "is_currently_working": false,
+        "start_date": "2021-03-01",
+        "end_date": "2021-10-31",
+        "skills": [
+          {
+            "skill_id": 75,
+            "skill": "Prophet",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": "Facebook's time series forecasting tool"
+          },
+          {
+            "skill_id": 76,
+            "skill": "ARIMA",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 77,
+            "skill": "Statsmodels",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          },
+          {
+            "skill_id": 78,
+            "skill": "Python",
+            "level_of_skill": "Expert",
+            "system_rating": 9,
+            "candidate_rating": 9,
+            "final_rating": 9,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 20,
+        "name": "A/B Testing Framework",
+        "description": "Implemented comprehensive A/B testing platform for data-driven product decisions with statistical rigor.",
+        "relevant_industry": "Analytics",
+        "is_currently_working": false,
+        "start_date": "2023-05-01",
+        "end_date": "2023-11-30",
+        "skills": [
+          {
+            "skill_id": 79,
+            "skill": "Statistical Analysis",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 80,
+            "skill": "Hypothesis Testing",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 81,
+            "skill": "SciPy",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 7,
+            "final_rating": 7.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 21,
+        "name": "User Segmentation Analysis",
+        "description": "Performed clustering analysis to identify user segments for targeted marketing campaigns, improving ROI by 30%.",
+        "relevant_industry": "Marketing Analytics",
+        "is_currently_working": false,
+        "start_date": "2020-09-01",
+        "end_date": "2021-02-28",
+        "skills": [
+          {
+            "skill_id": 82,
+            "skill": "K-Means Clustering",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 83,
+            "skill": "DBSCAN",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          },
+          {
+            "skill_id": 84,
+            "skill": "PCA",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": "Principal Component Analysis"
+          },
+          {
+            "skill_id": 85,
+            "skill": "Matplotlib",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          },
+          {
+            "skill_id": 86,
+            "skill": "Seaborn",
+            "level_of_skill": "Advanced",
+            "system_rating": 8,
+            "candidate_rating": 8,
+            "final_rating": 8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "project_id": 22,
+        "name": "NLP Sentiment Analysis Tool",
+        "description": "Built sentiment analysis tool for customer reviews using BERT, processing 1M+ reviews monthly.",
+        "relevant_industry": "NLP",
+        "is_currently_working": false,
+        "start_date": "2021-11-01",
+        "end_date": "2022-03-31",
+        "skills": [
+          {
+            "skill_id": 87,
+            "skill": "BERT",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 88,
+            "skill": "NLP",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 7,
+            "final_rating": 7,
+            "description": null
+          },
+          {
+            "skill_id": 89,
+            "skill": "HuggingFace",
+            "level_of_skill": "Intermediate",
+            "system_rating": 7,
+            "candidate_rating": 6,
+            "final_rating": 6.5,
+            "description": null
+          }
+        ]
+      }
+    ],
+    "education": {
+      "tertiary": [
+        {
+          "awarding_name": "Master of Science in Data Science",
+          "awarding_institution_name": "University of Tokyo",
+          "qualification_level": "Master",
+          "specialization": "Data Science and Machine Learning",
+          "start_date": "2017-04-01",
+          "end_date": "2019-03-31",
+          "grade": "3.8/4.0 GPA",
+          "department": "Graduate School of Information Science and Technology",
+          "faculty": "Engineering",
+          "batch": "2017-2019"
+        },
+        {
+          "awarding_name": "Bachelor of Science in Mathematics",
+          "awarding_institution_name": "Kyoto University",
+          "qualification_level": "Bachelor",
+          "specialization": "Applied Mathematics and Statistics",
+          "start_date": "2013-04-01",
+          "end_date": "2017-03-31",
+          "grade": "3.7/4.0 GPA",
+          "department": "Faculty of Science",
+          "faculty": "Science",
+          "batch": "2013-2017"
+        }
+      ],
+      "secondary": []
+    },
+    "publications": [],
+    "web_links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/kenji-tanaka-ds"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/kenjitanaka"
+      },
+      {
+        "platform": "Kaggle",
+        "url": "https://kaggle.com/kenjitanaka"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Japanese",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Mandarin",
+        "proficiency": "Intermediate"
+      }
+    ],
+    "certifications": [
+      {
+        "certification_name": "Google Cloud Professional Data Engineer",
+        "organization": "Google Cloud",
+        "credential_id": "GCP-PDE-2023-KT-5678",
+        "issue_date": "2023-05-12",
+        "expiration_date": "2025-05-12"
+      },
+      {
+        "certification_name": "Machine Learning Specialization",
+        "organization": "Coursera - Stanford University",
+        "credential_id": "MLSPEC-2020-3421",
+        "issue_date": "2020-09-18",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Deep Learning Specialization",
+        "organization": "Coursera - DeepLearning.AI",
+        "credential_id": "DLSPEC-2021-8934",
+        "issue_date": "2021-02-25",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "TensorFlow Developer Certificate",
+        "organization": "Google",
+        "credential_id": "TF-DEV-2021-KT-4567",
+        "issue_date": "2021-07-30",
+        "expiration_date": null
+      },
+      {
+        "certification_name": "Advanced SQL for Data Science",
+        "organization": "DataCamp",
+        "credential_id": "DC-SQL-2022-7891",
+        "issue_date": "2022-03-10",
+        "expiration_date": null
+      }
+    ]
+  }
+}
